@@ -25,6 +25,7 @@ sass:
 analytics_id: "UA-5243796-6"
 title: "Ian Lai"
 social:
+    disqus: "ianlai"
     behance: "https://www.behance.net/MrSaints"
     dribbble: "https://dribbble.com/MrSaints"
     github: "https://github.com/MrSaints"
