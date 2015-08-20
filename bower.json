@@ -1,0 +1,23 @@
+{
+  "name": "www.fyianlai.com",
+  "version": "0.0.0",
+  "authors": [
+    "Ian Lai <ian@fyianlai.com>"
+  ],
+  "description": "Ian Lai's static, and custom website developed on Jekyll.",
+  "main": "index.html",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://www.fyianlai.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "civil.css": "*",
+    "normalize.css": "~3.0.3"
+  }
+}
