@@ -5,8 +5,8 @@ title: "Prepare() in Beego web app framework."
 
 [`Prepare()`](http://beego.me/docs/mvc/controller/controller.md) is a method exposed by [`beego.Controller{}`](https://godoc.org/github.com/astaxie/beego#Controller) and it is executed prior to the method corresponding to your route and HTTP request (the action). It is not a filter and thus, it can easily be extended (much like the `Get()` and `Post()` method) for a variety of functions such as:
 
-*   **Session control:** ACL-based authentication and authorization
-*   **Globals:** Setting [ REUSABLE ] defaults for your template (stylesheets, JavaScipts, variables...)
+* **Session control:** ACL-based authentication and authorization
+* **Globals:** Setting [ REUSABLE ] defaults for your template (stylesheets, JavaScipts, variables...)
 
 <!--more-->
 
@@ -40,7 +40,7 @@ func (this *BaseController) Prepare() {
 }
 {% endhighlight %}
 
-Any *new struct* embedding `BaseController{}` will now inherit its methods and variables (only `Prepare()` in this case) as well as those in the anonymous member `beego.Controller{}` as it is embedded in `BaseController{}` (refer to the first few lines). Unless the new struct sets its own `Prepare()` method, Beego will fallback to using the next defined `Prepare()` which in this case, belongs to `BaseController{}`. Our _new struct_ will now have a `Layout` variable that is set to `layout.tpl` (overwriting `beego.Controller{}` default) and an array of styles and scripts in `HeadStyles` and `HeadScripts` template variable (set via `Data`) respectively, by default.
+Any _new struct_ embedding `BaseController{}` will now inherit its methods and variables (only `Prepare()` in this case) as well as those in the anonymous member `beego.Controller{}` as it is embedded in `BaseController{}` (refer to the first few lines). Unless the new struct sets its own `Prepare()` method, Beego will fallback to using the next defined `Prepare()` which in this case, belongs to `BaseController{}`. Our _new struct_ will now have a `Layout` variable that is set to `layout.tpl` (overwriting `beego.Controller{}` default) and an array of styles and scripts in `HeadStyles` and `HeadScripts` template variable (set via `Data`) respectively, by default.
 
 **Fun fact:** [`beego.Controller.Prepare()`](https://github.com/astaxie/beego/blob/master/controller.go#L112) does not contain any logic.
 

@@ -6,7 +6,7 @@ title: "Google Chrome: Minimum font-size issue"
 **Update (24/05/2014):** I have [recently discovered](http://stackoverflow.com/questions/21302069/disable-chrome-minimum-font-size-10px) that Chromium (Desktop) has [dropped support](http://trac.webkit.org/changeset/145168) for the `text-size-adjust` CSS property name rendering the original solution below invalid. The [alternative solution](https://support.google.com/chrome/answer/95416) is still functional. It is **not a bug** as far as I am concerned. It is related to the user's Chromium preferences, and it is not advisable to override them.
 
 
-## Why does my website's font-size appear larger on other screens? Or why does it not appear as intended?
+#### Why does my website's font-size appear larger on other screens? Or why does it not appear as intended?
 
 A minimum font-size of 12px is set for Chrome users with a special, foreign UI locale (language) - e.g. Chinese, Korean, Japanese, Thai etc. If however, the font-size for any content on your website is set to a value that is less than 12px, it will automatically be resized to 12px. [WebKit](http://www.webkit.org/) - the web browser engine behind Chrome which handles the parsing and layout of websites - however, does support font-sizes of 12px and under. Indeed, for most UI locales, Chrome has set the minimum font-size to 1px (simply: anything smaller will be resized to 1px). The way Chrome behaves when dealing with special UI locales may become problematic for web designs relying heavily on [magic numbers](http://css-tricks.com/magic-numbers-in-css/) or typography. Indeed, other users and developers seem to be raising similar concerns about this behaviour and its adverse impact:
 
@@ -21,7 +21,9 @@ A minimum font-size of 12px is set for Chrome users with a special, foreign UI l
 Based on the links above there is - at the time of this post - no one size-fits-all solution to this problem. There is however, a quick fix solution which will require you to disable auto-adjustment of your website's font sizes via your stylesheet. Simply include the following property in your stylesheet:
 
 {% highlight css %}
--webkit-text-size-adjust: none
+html, body {
+    -webkit-text-size-adjust: none
+}
 {% endhighlight %}
 
 
