@@ -1,0 +1,27 @@
+/*
+ Decorators
+ */
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3 {
+    color: #333331;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+pre, code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+a {
+    color: #FB7973;
+}
+    a:hover {
+        color: #E06C67;
+        text-decoration: none;
+    }
