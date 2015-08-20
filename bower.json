@@ -4,7 +4,7 @@
   "authors": [
     "Ian Lai <ian@fyianlai.com>"
   ],
-  "description": "Ian Lai's static, and custom website developed on Jekyll.",
+  "description": "A personal website powered by Jekyll.",
   "main": "index.html",
   "keywords": [],
   "license": "MIT",
