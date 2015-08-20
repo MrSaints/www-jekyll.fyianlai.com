@@ -11,6 +11,8 @@ WordPress provides developers with a class of functions to manipulate the databa
 
 Here is a [gist](https://gist.github.com/MrSaints/8209879) of how you may do so:
 
+<!-- TODO: Fix line comments -->
+
 {% highlight php %}
 <?php
 define('DB_HOST', '127.0.0.1');

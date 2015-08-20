@@ -133,8 +133,8 @@ a.continue {
         text-decoration: none;
     }
     .footer .prev {
-        float: left;
+        float: right;
     }
     .footer .next {
-        float: right;
+        float: left;
     }

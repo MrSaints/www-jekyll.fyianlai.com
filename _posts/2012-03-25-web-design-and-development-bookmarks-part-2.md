@@ -40,7 +40,7 @@ I apologise in advance if any of the links below no longer work. I will not keep
 
 * [Twitter Bootstrap For Wordpress](https://github.com/donatkinson/bootstrapwp-Twitter-Bootstrap-for-WordPress)
 * [basket.js - A simple (proof-of-concept) script loader that caches scripts with localStorage](http://addyosmani.github.com/basket.js/)
-* [Chico UI - A free and open source collection of easy-to-use web tools for developers and designers.](http://chico-ui.com.ar/)
+* [Chico UI - A free and open source collection of easy-to-use web tools for developers and designers](http://chico-ui.com.ar/)
 * [Skeleton - A Beautiful Boilerplate for Responsive, Mobile-Friendly Development](http://getskeleton.com/#)
 * [Dexy - "The Most Powerful, Flexible Documentation Tool Ever"](http://www.dexy.it/)
 * [noty – Easily create alert, success, error and confirmation messages](http://needim.github.com/noty/)
@@ -64,7 +64,7 @@ I apologise in advance if any of the links below no longer work. I will not keep
 
 ### Optimization / Testing
 
-* [ Website Speed Part 4 : PHP Programming for Speed](http://speckyboy.com/2012/03/12/website-speed-part-4-php-programming-for-speed/)
+* [Website Speed Part 4: PHP Programming for Speed](http://speckyboy.com/2012/03/12/website-speed-part-4-php-programming-for-speed/)
 * [Resizer - A responsive design bookmarklet](http://codebomber.com/jquery/resizer/)
 * [Why Inlining Everything Is NOT The Answer](http://calendar.perfplanet.com/2011/why-inlining-everything-is-not-the-answer/)
 * [Dirty Markup – Tidy and beautify your HTML, CSS & JS code](http://dirtymarkup.com/)

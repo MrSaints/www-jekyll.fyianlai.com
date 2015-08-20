@@ -10,18 +10,26 @@ The following post is a _x-post_ from my [private] Tumblr. I think this is the o
 * * *
 
 
-> [**lukemichael5 asked:**](http://lukemichael5.tumblr.com/) Hank, Is there any psychological or biological reason for why people stand in the shower for a long time when thinking? Does the running water provide any mental relief? Could there be an evolutionary reason why? Have I asked too many questions for you to answer? (Probably)
+> [**lukemichael5 asked:**](http://lukemichael5.tumblr.com/)
+>
+> Hank, Is there any psychological or biological reason for why people stand in the shower for a long time when thinking? Does the running water provide any mental relief? Could there be an evolutionary reason why? Have I asked too many questions for you to answer? (Probably)
 
-> [**edwardspoonhands answered:**](http://edwardspoonhands.com/post/81366082695/hank-is-there-any-psychological-or-biological-reason) I honestly think it’s because every other moment of the day is filled up with THING TO DO! ADVERTISEMENT! SMARTPHONE! STIMULUS! GET IN THE CAR! DO THING! STOP STOPPING! START STARTING! NO THINKY! THINKY BAD! GO GO SPEND WATCH DO MOVE GO! The shower is like, the last place where you can feel ok about just standing there.
+> [**edwardspoonhands answered:**](http://edwardspoonhands.com/post/81366082695/hank-is-there-any-psychological-or-biological-reason)
+>
+> I honestly think it’s because every other moment of the day is filled up with THING TO DO! ADVERTISEMENT! SMARTPHONE! STIMULUS! GET IN THE CAR! DO THING! STOP STOPPING! START STARTING! NO THINKY! THINKY BAD! GO GO SPEND WATCH DO MOVE GO! The shower is like, the last place where you can feel ok about just standing there.
 
 <!--more-->
 
-I’m going to take a shot at this question since I’ve been [pondering over it](http://www.fyianlai.com/blog/2013/07/28/building-a-new-home/ "Building a new home") for some time, looking for the right _[scientific] answer(s)._ Based on what I know, I think it is a combination of both psychological and biological reasons: cognitive neuroscience (perhaps some elements of behavioural psychology as well). Apologies for my naive response, as a disclaimer I am not an expert so take what I say with a grain of salt.
+I’m going to take a shot at this question since I’ve been [pondering over it](http://www.fyianlai.com/blog/2013/07/28/building-a-new-home/ "Building a new home") for some time, looking for the right _[scientific] answer(s)._ Based on what I know, I think it is a combination of both psychological and biological reasons: cognitive neuroscience (perhaps some elements of behavioural psychology as well). 
+
+Apologies for my naive response, as a disclaimer I am not an expert so take what I say with a grain of salt.
 
 
 ## It is biology...
 
-Firstly, the “thinking” part of a long shower I believe is - as Hank stated - a result of a [bombardment of stimuli](http://journals.lww.com/investigativeradiology/Citation/1988/01000/The_Study_of_Perception.10.aspx) from our sensory organs in our everyday lives. Obviously, our central nervous system (CNS) isn’t capable of responding to each and every one of the stimuli and consequently, we have developed (un)conscious filtering mechanisms - see [selective perception](http://en.wikipedia.org/wiki/Selective_perception). In the shower however, we aren’t subjected to this bombardment (or at least my showers aren’t) that has been exacerbated by the internet and social media in particular over the past couple of years. I suppose this is why we can be in a _state of Zen_ and _think better_, inevitably losing track of time. As the saying goes, a hot shower helps takes your mind off things _(escape from reality?)._
+Firstly, the “thinking” part of a long shower I believe is - as Hank stated - a result of a [bombardment of stimuli](http://journals.lww.com/investigativeradiology/Citation/1988/01000/The_Study_of_Perception.10.aspx) from our sensory organs in our everyday lives. Obviously, our central nervous system (CNS) isn’t capable of responding to each and every one of the stimuli and consequently, we have developed (un)conscious filtering mechanisms - see [selective perception](http://en.wikipedia.org/wiki/Selective_perception). In the shower however, we aren’t subjected to this bombardment (or at least my showers aren’t) that has been exacerbated by the internet and social media in particular over the past couple of years. I suppose this is why we can be in a _state of Zen_ and _think better_, inevitably losing track of time.
+
+As the saying goes, a hot shower helps takes your mind off things _(escape from reality?)._
 
 I don’t think that answers the question really well though.
 
@@ -42,7 +50,9 @@ As I have explained earlier, the consequences of long showers may be the allevia
 
 Before I conclude, I think it is worth mentioning the [drive-reduction theory](https://www.boundless.com/psychology/motivation/approaches-to-explaining-motivation/drive-reduction-theory/) despite its pitfalls. The theory states that “humans are motivated to reduce the state of tension caused when certain biological needs are not satisfied”. Basically, we are motivated / driven to behave in certain ways by the active need to maintain a certain state of balance or equilibrium ([homeostasis](http://en.wikipedia.org/wiki/Homeostasis)). Building on what I’ve already mentioned in the last paragraph, the reduction of the drive acts as a reinforcement for that behaviour. I may be overextending this theory for this question, but a long shower may satisfy our need to think or relax, and its success / reliability in doing so will reinforce our craving for it.
 
-With that being said, will you stand in the shower for a long time when thinking if it was extremely cold or hot? Suum cuique pulchrum est. To each his own is beautiful.
+With that being said, will you stand in the shower for a long time when thinking if it was extremely cold or hot?
+
+Suum cuique pulchrum est. To each his own is beautiful.
 
 
 #### There may be an [evolutionary explanation](http://www.reddit.com/r/explainlikeimfive/comments/1gk3vm/eli5_why_do_humans_have_such_a_strong_desire_to/cal5v5m), but it is too fluffy and subject to a lot of criticisms.

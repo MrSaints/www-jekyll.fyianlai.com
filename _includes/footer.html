@@ -2,11 +2,11 @@
     <div class="wrapper">
         {% if paginator.total_pages > 1 %}
         <div class="paginator block">
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="prev">&lsaquo; Newer</a>
-        {% endif %}
         {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">Older &rsaquo;</a>
+            <a href="{{ paginator.next_page_path }}" class="next">&lsaquo; Older</a>
+        {% endif %}
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="prev">Newer &rsaquo;</a>
         {% endif %}
         </div>
         {% endif %}

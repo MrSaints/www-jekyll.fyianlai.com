@@ -81,6 +81,7 @@ And a _new struct_ controller named `HelloWorldController` implementing `BaseCon
 ###### controllers/helloworld.go:
 
 {% highlight go %}
+{% raw %}
 type HelloWorldController struct {
     // Embedding: "Inherit" BaseController
     BaseController
@@ -93,9 +94,10 @@ func (this *HelloWorldController) Get() {
     // TplNames is parsed into {{.LayoutContent}}
     this.TplNames = "hello_world.tpl"
 }
+{% endraw %}
 {% endhighlight %}
 
-Beego will automatically render (if the `AutoRender` config is enabled) `hello_world.tpl` AND `layout.tpl`. The contents of `hello_world.tpl` will be imported into the `LayoutContent` template variable [ in the curly braces ]. Additionally, `{{range .HeadStyles}}` and `{{range .HeadScripts}}` will loop through our string array of stylesheets and JavaScripts so that we can import them into our HTML page. Our HTML document title will be "Beego App: Hello World!" once successfully rendered.
+Beego will automatically render (if the `AutoRender` config is enabled) `hello_world.tpl` AND `layout.tpl`. The contents of `hello_world.tpl` will be imported into the `LayoutContent` template variable [ in the curly braces ]. Additionally, {% raw %}`{{range .HeadStyles}}` and `{{range .HeadScripts}}`{% endraw %} will loop through our string array of stylesheets and JavaScripts so that we can import them into our HTML page. Our HTML document title will be "Beego App: Hello World!" once successfully rendered.
 
 Notice that in our `HelloWorldController.Get()` method we did not have to define what `Layout` is as it was already defined by `HelloWorldController{}` parent, the `BaseController{}`. Thus, when the `Render()` method is fired, it will be in the [context of](https://github.com/astaxie/beego/blob/master/controller.go#L197) `HelloWorldController{}`. We can even include specific stylesheets and scripts specific for the `HelloWorldController.Get()` method by using Go's `append` function on `this.Data["HeadScripts"]`.
 
