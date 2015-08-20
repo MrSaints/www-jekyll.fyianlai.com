@@ -1,0 +1,22 @@
+<article class="article {{ cycle }}">
+<div class="wrapper">
+    <div class="article-meta block">
+        {% if single %}
+            <h1 class="article-title current">{{ page.title }}</h1>
+            <time class="article-datetime" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+        {% else %}
+            <h1 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+            <time class="article-datetime" datetime="{{ page.date }}"><a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a></time>
+        {% endif %}
+    </div>
+
+    {% if single %}
+        {{ content }}
+    {% else %}
+        {{ page.excerpt }}
+        <div class="article-footer block">
+            <a href="{{ page.url }}" class="continue">Continue reading &raquo;</a>
+        </div>
+    {% endif %}
+</div>
+</article>

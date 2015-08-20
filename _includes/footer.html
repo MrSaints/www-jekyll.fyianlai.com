@@ -1,0 +1,25 @@
+<footer class="footer block">
+    <div class="wrapper">
+        {% if paginator.total_pages > 1 %}
+        <div class="paginator block">
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="prev">&lsaquo; Newer</a>
+        {% endif %}
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">Older &rsaquo;</a>
+        {% endif %}
+        </div>
+        {% endif %}
+        <div class="sign-off block">
+            <small class="footer-copyright">&copy; 2015 Ian Lai</small>
+            <ul class="footer-links">
+                <li><a href="#"><span class="typcn typcn-social-github"></span></a></li>
+                <li><a href="#"><span class="typcn typcn-social-dribbble"></span></a></li>
+                <li><a href="#"><span class="typcn typcn-social-twitter"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

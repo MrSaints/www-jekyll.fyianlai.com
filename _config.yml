@@ -1,0 +1,23 @@
+defaults:
+    - scope:
+        path: ""
+      values:
+        layout: "default"
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: "single"
+excerpt_separator: <!--more-->
+exclude:
+    - CNAME
+    - Gruntfile.coffee
+    - bower.json
+    - package.json
+#    - bower_components/
+    - node_modules/
+paginate: 5
+paginate_path: "/page/:num/"
+permalink: /:year/:month/:title
+gems:
+    - jekyll-redirect-from
