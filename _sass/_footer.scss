@@ -1,0 +1,50 @@
+.footer {
+    background: #FFF;
+    border-top: 1px solid #D9D9D9;
+    font-size: 1.25rem; /* Base */
+    line-height: 1.875rem;
+    padding: 3.74rem 0;
+    text-align: center;
+
+    .paginator {
+        margin-bottom: 1.875rem;
+
+        .prev {
+            float: right;
+        }
+        .next {
+            float: left;
+        }
+    }
+
+    .sign-off {
+        color: #A4A69F;
+        font-family: $heading-font;
+    }
+
+        .footer-copyright {
+            float: left;
+        }
+
+        .footer-links {
+            float: right;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                display: inline-block;
+                margin: 0 .478rem;
+                > a {
+                    color: #A4A69F;
+                    &:hover {
+                        color: #4C4D4A;
+                    }
+               }
+            }
+        }
+
+    a {
+        color: #4C4D4A;
+        text-decoration: none;
+    }
+}

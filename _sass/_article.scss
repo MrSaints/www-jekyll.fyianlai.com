@@ -1,0 +1,53 @@
+.article {
+    padding: 3.75rem 0;
+
+    h2, h3 {
+        margin-top: 3.75rem;
+    }
+
+    &.even {
+        background: #FFF;
+    }
+}
+
+.article-meta {
+    margin-bottom: 1.875rem;
+}
+    .article-title.current {
+        color: #FB7973;
+    }
+    .article-title, .article-datetime {
+        > a {
+            color: #333331;
+            text-decoration: none;
+
+            &:hover {
+                color: #E06C67;
+            }
+        }
+    }
+        .article-datetime > a {
+            color: #808080;
+        }
+    .article-datetime, .article-footer {
+        color: #808080;
+        display: block;
+        font-family: $heading-font;
+        font-size: 0.773rem;
+        line-height: 2.4257;
+        text-transform: uppercase;
+    }
+
+a.continue {
+    border: 1px solid #FB7973;
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    margin: 1.875rem 0;
+    padding: 0.9375rem;
+
+    &:hover {
+        background: #FB7973;
+        color: #FCFCFC;
+    }
+}
