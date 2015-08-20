@@ -20,7 +20,7 @@ The following post is a _x-post_ from my [private] Tumblr. I think this is the o
 
 <!--more-->
 
-I’m going to take a shot at this question since I’ve been [pondering over it](/2013/07/28/building-a-new-home/ "Building a new home") for some time, looking for the right _[scientific] answer(s)._ Based on what I know, I think it is a combination of both psychological and biological reasons: cognitive neuroscience (perhaps some elements of behavioural psychology as well). 
+I’m going to take a shot at this question since I’ve been [pondering over it](/2013/07/28/building-a-new-home/ "Building a new home") for some time, looking for the right _[scientific] answer(s)._ Based on what I know, I think it is a combination of both psychological and biological reasons: cognitive neuroscience (perhaps some elements of behavioural psychology as well).
 
 Apologies for my naive response, as a disclaimer I am not an expert so take what I say with a grain of salt.
 

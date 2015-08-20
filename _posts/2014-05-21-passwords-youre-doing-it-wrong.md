@@ -60,7 +60,7 @@ Cryptographic hash functions generally return a fixed-length hash value. Consequ
 
 ## Password strength checkers and minimum score.
 
-Password strength checkers rely on a [custom security criteria](http://en.wikipedia.org/wiki/Password_strength) which more often than not, is flawed. They are commonly calculated by measuring the entropy of the password or by comparing it to a set of regular expressions. High scores may be achieved by lengthier passwords (such as those composed purely of random words), but the overall quality of the passwords may not necessarily be high, for reasons explained above (they may even fall in a list of common passwords or patterns). 
+Password strength checkers rely on a [custom security criteria](http://en.wikipedia.org/wiki/Password_strength) which more often than not, is flawed. They are commonly calculated by measuring the entropy of the password or by comparing it to a set of regular expressions. High scores may be achieved by lengthier passwords (such as those composed purely of random words), but the overall quality of the passwords may not necessarily be high, for reasons explained above (they may even fall in a list of common passwords or patterns).
 
 For someone who is not familiar to the concept of passwords such a mechanism would be useful for guiding the user towards a more complex password with greater entropy, and hence, theoretically greater security. Enforcing a score-based restriction is nevertheless bad UX (it forces users to behave like machines which may also give a false sense of security), and in some cases, it may be a bad security design if it forces users to conform to a certain pattern of password (e.g. start with capitals, include X or Y, etc).
 

@@ -90,7 +90,7 @@ type HelloWorldController struct {
 func (this *HelloWorldController) Get() {
     // Set {{.Title}}
     this.Data["Title"] = "Hello World!"
-    
+
     // TplNames is parsed into {{.LayoutContent}}
     this.TplNames = "hello_world.tpl"
 }
@@ -120,7 +120,7 @@ If we were to create a new `Prepare()` method in `HelloWorldController{}`, the `
 {% highlight go %}
 func (this *HelloWorldController) Prepare() {
     this.BaseController.Prepare()
-    
+
     // Do other stuff
 }
 {% endhighlight %}

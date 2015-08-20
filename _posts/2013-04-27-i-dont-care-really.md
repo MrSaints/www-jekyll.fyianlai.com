@@ -9,7 +9,7 @@ I am well, thanks for asking. It has been a while since I posted anything here. 
 
 A recurring process of self-reflection has often made me dissatisfied with my past behaviour and even my past writings. The process is further catalysed by my concerns that as a native English speaker and a student in a somewhat prestigious university, it is necessary for me to be well-versed in the English language and articulative. After all, I am currently pursuing a course that is essay-based in its entirety. I am unfortunately, terrible at phrasing complex sentences according to many of my past English teachers and their criticisms in the past have to some extent, diminished my confidence in publicising any of my writings. I am nevertheless, grateful for their guidance.
 
-My grasp of language however, is not the only reason why and I feel I am often constrained by demand characteristics. For those who know me personally, I can be quite critical on certain issues and I feel my opinions may be strongly opposed or even criticised. I honestly dislike making mistakes and I do not like pre-conceptions of me based around mere words. 
+My grasp of language however, is not the only reason why and I feel I am often constrained by demand characteristics. For those who know me personally, I can be quite critical on certain issues and I feel my opinions may be strongly opposed or even criticised. I honestly dislike making mistakes and I do not like pre-conceptions of me based around mere words.
 
 Finally, as a "self-proclaimed web developer and designer", I have a rather bad ego which makes me reconsider the way I have presented my posts, from the little things like the formatting to things like the theme and colour scheme.
 
