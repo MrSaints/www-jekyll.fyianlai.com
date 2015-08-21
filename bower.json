@@ -1,6 +1,6 @@
 {
   "name": "www.fyianlai.com",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "authors": [
     "Ian Lai <ian@fyianlai.com>"
   ],
@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.3"
+    "normalize.css": "~3.0.3",
+    "civil-css": "*"
   }
 }

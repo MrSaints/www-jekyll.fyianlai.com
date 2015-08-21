@@ -1,4 +1,5 @@
 .paginator {
+    line-height: $kli-2;
     padding: $kli-4 0;
 
     > .wrapper {
@@ -9,7 +10,7 @@
         color: #373B44;
         display: inline-block;
         float: left;
-        padding: $kli-2 0;
+        padding: 1.874rem 0;
         width: 50%;
     }
     .prev {

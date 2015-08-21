@@ -19,6 +19,7 @@
     .article-title, .article-datetime {
         > a {
             color: #333331;
+            line-height: inherit;
             text-decoration: none;
 
             &:hover {

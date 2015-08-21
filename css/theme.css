@@ -1,27 +1,2 @@
-/*
- Decorators
- */
-
-body {
-    font-family: 'Merriweather', serif;
-}
-
-h1, h2, h3 {
-    color: #333331;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito', sans-serif;
-}
-
-pre, code {
-    font-family: 'Source Code Pro', monospace;
-}
-
-a {
-    color: #FB7973;
-}
-    a:hover {
-        color: #E06C67;
-        text-decoration: none;
-    }
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}body{color:#40403D;font-family:"Merriweather","Georgia","Cambria","Times New Roman","Times",serif}h1,h2,h3,h4,h5,h6{color:#484844;font-family:"Nunito","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif}h1,h2,h3{color:#4d4d49}pre,code{font-family:"Source Code Pro","Bitstream Vera Sans Mono","Consolas","Courier",monospace}a{color:#FB7973}a:hover,a:focus{color:#e26d68;text-decoration:none}h1,h2,h3{line-height:3.75rem}h4,h5,h6,small{line-height:1.875rem}h1 *,h2 *,h3 *,h4 *,h5 *,h6 *{line-height:1.5}
+/*# sourceMappingURL=theme.css.map */
