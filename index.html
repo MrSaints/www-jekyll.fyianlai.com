@@ -1,7 +1,7 @@
 ---
 ---
 
-{% for page in paginator.posts %}
+{% for article in paginator.posts %}
     {% capture cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% include article.html %}
 {% endfor %}

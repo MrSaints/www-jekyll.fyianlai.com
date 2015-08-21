@@ -1,6 +1,11 @@
 {% include header.html %}
-<div class="content">
-    {% assign single = true %}
+<div class="content" role="main">
     {% include article.html %}
+    {% include paginator.html %}
+
+    {% if page.is_post %}
+        <!-- Comments -->
+        {% include comments.html %}
+    {% endif %}
 </div>
 {% include footer.html %}

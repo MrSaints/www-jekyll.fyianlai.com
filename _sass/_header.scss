@@ -1,8 +1,8 @@
 .header {
-    background: #FB7973;
+    background: $primary-color;
     font-family: $heading-font;
-    margin-bottom: 3.75rem;
-    padding: 1.875rem;
+    margin-bottom: $kli-4;
+    padding: $kli-2;
 
     a {
         color: #FCFCFC;
@@ -30,7 +30,7 @@
 
             > li {
                 display: inline-block;
-                margin: 0 .9375rem;
+                margin: 0 $kli-1;
             }
         }
     }

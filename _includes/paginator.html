@@ -1,0 +1,21 @@
+{% if paginator.total_pages > 1 or page.is_post %}
+<div class="paginator block">
+    <div class="wrapper">
+    {% if page.is_post %}
+        {% if page.next %}
+            <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">&larr; {{ page.next.title | truncate: 35, '...' }}</a>
+        {% endif %}
+        {% if page.previous %}
+            <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">{{ page.previous.title | truncate: 35, '...' }} &rarr;</a>
+        {% endif %}
+    {% else %}
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">&larr; Older</a>
+        {% endif %}
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="prev">Newer &rarr;</a>
+        {% endif %}
+    {% endif %}
+    </div>
+</div>
+{% endif %}

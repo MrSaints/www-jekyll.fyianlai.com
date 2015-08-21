@@ -1,37 +1,22 @@
 <article class="article {{ cycle }}">
 <div class="wrapper">
-    <div class="article-meta block">
-        {% if single %}
+    <section class="article-meta block">
+        {% if page.is_post %}
             <h1 class="article-title current">{{ page.title }}</h1>
             <time class="article-datetime" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
         {% else %}
-            <h1 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-            <time class="article-datetime" datetime="{{ page.date }}"><a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a></time>
+            <h1 class="article-title"><a href="{{ article.url }}">{{ article.title }}</a></h1>
+            <time class="article-datetime" datetime="{{ article.date }}"><a href="{{ article.url }}">{{ article.date | date_to_long_string }}</a></time>
         {% endif %}
-    </div>
+    </section>
 
-    {% if single %}
+    {% if page.is_post %}
         {{ content }}
     {% else %}
-        {{ page.excerpt }}
-        <div class="article-footer block">
-            <a href="{{ page.url }}" class="continue">Continue reading &raquo;</a>
-        </div>
+        {{ article.excerpt }}
+        <section class="article-footer block">
+            <a href="{{ article.url }}" class="continue">Continue reading &raquo;</a>
+        </section>
     {% endif %}
 </div>
 </article>
-
-{% if single %}
-<div class="comments block">
-    <div class="wrapper"><div id="disqus_thread"></div></div>
-</div>
-<script type="text/javascript">
-    var disqus_shortname = '{{ site.social.disqus }}';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-{% endif %}
