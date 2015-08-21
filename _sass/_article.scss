@@ -1,8 +1,8 @@
 .article {
-    padding: 3.75rem 0;
+    padding: $kli-4 0;
 
     h2, h3 {
-        margin-top: 3.75rem;
+        margin-top: $kli-4;
     }
 
     &.even {
@@ -11,7 +11,7 @@
 }
 
 .article-meta {
-    margin-bottom: 1.875rem;
+    margin-bottom: $kli-2;
 }
     .article-title.current {
         color: #FB7973;
@@ -43,8 +43,8 @@ a.continue {
     display: inline-block;
     float: left;
     text-decoration: none;
-    margin: 1.875rem 0;
-    padding: 0.9375rem;
+    margin: $kli-2 0;
+    padding: $kli-1;
 
     &:hover {
         background: #FB7973;

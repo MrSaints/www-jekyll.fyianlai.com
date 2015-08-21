@@ -1,5 +1,5 @@
 .paginator {
-    padding: 3.75rem 0;
+    padding: $kli-4 0;
 
     > .wrapper {
         border-top: 1px solid #D9D9D9;
@@ -9,7 +9,7 @@
         color: #373B44;
         display: inline-block;
         float: left;
-        padding: 1.875rem 0;
+        padding: $kli-2 0;
         width: 50%;
     }
     .prev {

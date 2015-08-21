@@ -3,8 +3,8 @@
     color: #A4A69F;
     font-family: $heading-font;
     font-size: 1.25rem; /* Base */
-    line-height: 1.875rem;
-    padding: 3.75rem 0;
+    line-height: $kli-2;
+    padding: $kli-4 0;
 
     .footer-copyright {
         float: left;
