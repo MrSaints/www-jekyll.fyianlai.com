@@ -1,6 +1,7 @@
 ---
 date: 2013-07-28 06:19:00
 title: "Building a new home."
+disqus_id: "329 http://www.fyianlai.com/?p=329"
 ---
 
 It is unbelievable how I am able to think of so much to talk about and to write about when I am trying to sleep or when I am taking a shower; however, when I attempt to convey my thoughts, I am unable to synthesise the blob that is in my brain. For a long time (and even most recently) I have tried to convince myself that it was due to my [insecurities and fear of creating an abomination of unguided thoughts](/2013/04/i-dont-care-really/), a Frankenstein. I am a master to countless number of Frankensteins and one need only browse my archives to discover them. Perhaps once I have developed an environment that is conducive for the interaction of my thoughts and my social skills (writing and speaking in this context) will I be capable of overcoming this obstacle - the "right state of mind".
