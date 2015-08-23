@@ -6,12 +6,14 @@
 $body-font: 'Merriweather', serif;
 $heading-font: 'Nunito', sans-serif;
 
-$primary-color: #FB7973;
+$base-font-colour: #40403D;
+$primary-colour: #FB7973;
+$secondary-colour: #373B44;
 
-$kli-1: 0.9375rem;
-$kli-2: 1.875rem; /* Base 30px */
-$kli-3: 2.8125rem;
-$kli-4: 3.75rem;
+$kl-i-1-2: 0.9375rem;
+$kl-i-1: 1.875rem; /* Base 30px */
+$kl-i-3-2: 2.8125rem;
+$kl-i-2: 3.75rem;
 
 body {
     background: #FAFAFA;

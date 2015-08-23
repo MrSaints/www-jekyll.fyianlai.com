@@ -1,8 +1,8 @@
 .article {
-    padding: $kli-4 0;
+    padding: $kl-i-2 0;
 
     h2, h3 {
-        margin-top: $kli-4;
+        margin-top: $kl-i-2;
     }
 
     &.even {
@@ -11,15 +11,14 @@
 }
 
 .article-meta {
-    margin-bottom: $kli-2;
+    margin-bottom: $kl-i-1;
 }
     .article-title.current {
-        color: #FB7973;
+        color: $primary-colour;
     }
     .article-title, .article-datetime {
         > a {
-            color: #333331;
-            line-height: inherit;
+            color: inherit;
             text-decoration: none;
 
             &:hover {
@@ -27,9 +26,6 @@
             }
         }
     }
-        .article-datetime > a {
-            color: #808080;
-        }
     .article-datetime, .article-footer {
         color: #808080;
         display: block;
@@ -40,15 +36,15 @@
     }
 
 a.continue {
-    border: 1px solid #FB7973;
+    border: 1px solid $primary-colour;
     display: inline-block;
     float: left;
     text-decoration: none;
-    margin: $kli-2 0;
-    padding: $kli-1;
+    margin: $kl-i-1 0;
+    padding: $kl-i-1-2;
 
     &:hover {
-        background: #FB7973;
+        background: $primary-colour;
         color: #FCFCFC;
     }
 }
@@ -56,5 +52,5 @@ a.continue {
 .comments {
     background: #FFF;
     border-top: 1px solid #D9D9D9;
-    padding: 3.74rem 0;
+    padding: $kl-i-2 0;
 }
