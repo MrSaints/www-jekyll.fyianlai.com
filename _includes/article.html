@@ -1,22 +1,26 @@
 <article class="article {{ cycle }}">
 <div class="wrapper">
     <section class="article-meta block">
-        {% if page.is_post %}
+        {% if article %}
+            <h1 class="article-title"><a href="{{ article.url }}">{{ article.title }}</a></h1>
+            {% if article.date %}
+            <time class="article-datetime" datetime="{{ article.date }}"><a href="{{ article.url }}">{{ article.date | date_to_long_string }}</a></time>
+            {% endif %}
+        {% elsif page.is_post %}
             <h1 class="article-title current">{{ page.title }}</h1>
             <time class="article-datetime" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
         {% else %}
-            <h1 class="article-title"><a href="{{ article.url }}">{{ article.title }}</a></h1>
-            <time class="article-datetime" datetime="{{ article.date }}"><a href="{{ article.url }}">{{ article.date | date_to_long_string }}</a></time>
+            <h1 class="article-title current">{{ page.title }}</h1>
         {% endif %}
     </section>
 
-    {% if page.is_post %}
-        {{ content }}
-    {% else %}
+    {% if article %}
         {{ article.excerpt }}
         <section class="article-footer block">
             <a href="{{ article.url }}" class="continue">Continue reading &raquo;</a>
         </section>
+    {% else %}
+        {{ content }}
     {% endif %}
 </div>
 </article>

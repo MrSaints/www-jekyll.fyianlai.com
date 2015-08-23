@@ -1,9 +1,11 @@
 {% include header.html %}
 <div class="content" role="main">
     {% include article.html %}
-    {% include paginator.html %}
 
     {% if page.is_post %}
+        <!-- Paginator -->
+        {% include paginator.html %}
+
         <!-- Comments -->
         {% include comments.html %}
     {% endif %}
