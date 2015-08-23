@@ -5,11 +5,11 @@
     padding: $kl-i-1;
 
     a {
-        color: #FCFCFC;
+        color: $light-colour;
         text-decoration: none;
 
         &:hover {
-            border-bottom: 2px solid #FFF;
+            border-bottom: 2px solid $light-colour;
         }
     }
 

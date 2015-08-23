@@ -45,12 +45,12 @@ a.continue {
 
     &:hover {
         background: $primary-colour;
-        color: #FCFCFC;
+        color: $light-colour;
     }
 }
 
 .comments {
     background: #FFF;
-    border-top: 1px solid #D9D9D9;
+    border-top: 1px solid $divider-colour;
     padding: $kl-i-2 0;
 }
