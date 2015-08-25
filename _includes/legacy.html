@@ -1,5 +1,6 @@
 {% for tag in page.tags %}
     {% if tag == "legacy" %}
         <p>The following post has been tagged as legacy.</p>
+        {% break %}
     {% endif %}
 {% endfor %}
