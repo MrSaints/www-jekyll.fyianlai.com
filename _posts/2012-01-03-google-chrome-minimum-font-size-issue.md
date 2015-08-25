@@ -2,6 +2,7 @@
 date: 2012-01-03 02:01:00
 title: "Google Chrome: Minimum font-size issue"
 disqus_id: "263 http://www.fyianlai.com/?p=263"
+tags: legacy
 ---
 
 **Update (24/05/2014):** I have [recently discovered](http://stackoverflow.com/questions/21302069/disable-chrome-minimum-font-size-10px) that Chromium (Desktop) has [dropped support](http://trac.webkit.org/changeset/145168) for the `text-size-adjust` CSS property name rendering the original solution below invalid. The [alternative solution](https://support.google.com/chrome/answer/95416) is still functional. It is **not a bug** as far as I am concerned. It is related to the user's Chromium preferences, and it is not advisable to override them.

@@ -1,6 +1,7 @@
 ---
 date: 2012-02-24 04:17:00
 title: "Web design and development bookmarks - part 1"
+tags: legacy
 ---
 
 The following is a _re-mastered_ collection of bookmarks from **February 2012** comprising of what I deem are useful web design and development resources, libraries, articles, etc. They were obtained from a variety of sources such as [CodeVisually](http://www.codevisually.com), [Speckyboy](http://www.speckyboy.com), [Smashing Magazine](http://www.smashingmagazine.com), [NETTUTS](http://www.nettuts.com) and [Hacker News](http://news.ycombinator.com/).

@@ -2,6 +2,7 @@
 date: 2012-02-06 04:06:00
 title: "WordPress: Connecting to an external/secondary database"
 disqus_id: "268 http://www.fyianlai.com/?p=268"
+tags: legacy
 ---
 
 #### `$wpdb` can only access and manipulate the WordPress database. How may I do the same for another database with different credentials?

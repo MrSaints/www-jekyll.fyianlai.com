@@ -2,6 +2,7 @@
 date: 2013-04-27 10:56:00
 title: "I don't care, really."
 disqus_id: "318 http://www.fyianlai.com/?p=318"
+tags: legacy
 ---
 
 I am well, thanks for asking. It has been a while since I posted anything here. There are a few reasons why but I guess the main reason is my fear of judgement by others. It is the same reason why I have deleted most of my blogs in the past a few months after I have created them.
