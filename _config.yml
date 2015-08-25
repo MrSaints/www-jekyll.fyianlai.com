@@ -7,6 +7,7 @@ defaults:
         path: ""
         type: "posts"
       values:
+        author: "Ian Lai"
         is_post: true
         layout: "single"
 excerpt_separator: <!--more-->
@@ -24,6 +25,8 @@ sass:
     style: :compressed
 analytics_id: "UA-5243796-6"
 title: "Ian Lai"
+description: "Words from an autodidact, full-stack web developer (minus mobile development) who is currently based in London."
+url: "https://www.fyianlai.com"
 social:
     disqus: "ianlai"
     behance: "https://www.behance.net/MrSaints"
