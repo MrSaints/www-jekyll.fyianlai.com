@@ -14,7 +14,7 @@
     margin-bottom: $kl-i-1;
 }
     .article-title.current {
-        color: $primary-colour;
+        color: $secondary-colour;
     }
     .article-title, .article-datetime {
         > a {
@@ -31,8 +31,15 @@
         display: block;
         font-family: $heading-font;
         font-size: 0.773rem;
+        font-weight: 400;
         line-height: 2.4257;
         text-transform: uppercase;
+        .home {
+            color: $primary-colour;
+        }
+        > time {
+            font-size: inherit;
+        }
     }
 
 a.continue {
