@@ -3,7 +3,15 @@
  */
 @media only screen and (max-width: 46.875em) {
     .wrapper {
-        margin: 0 1.615em;
+        margin: 0 1.615rem;
         width: auto;
+    }
+
+    .header {
+        .logo, .navbar {
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
     }
 }
