@@ -9,11 +9,11 @@
             <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">{{ page.previous.title | truncate: 35, '...' }} &rarr;</a>
         {% endif %}
     {% else %}
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">&larr; Older</a>
-        {% endif %}
         {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="prev">Newer &rarr;</a>
+            <a href="{{ paginator.previous_page_path }}" class="next">&larr; Newer</a>
+        {% endif %}
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="prev">Older &rarr;</a>
         {% endif %}
     {% endif %}
     </div>
