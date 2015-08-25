@@ -11,6 +11,7 @@
             <small class="article-datetime"><a href="/" class="home"><i class="fa fa-home"></i> Home</a> &mdash; <time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time></small>
         {% else %}
             <h1 class="article-title current">{{ page.title }}</h1>
+            <small class="article-datetime"><a href="/" class="home"><i class="fa fa-home"></i> Home</a></small>
         {% endif %}
     </section>
 
@@ -21,6 +22,8 @@
         </section>
     {% else %}
         {{ content }}
+
+        {% include share.html %}
     {% endif %}
 </div>
 </article>
