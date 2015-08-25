@@ -2,7 +2,7 @@
   "name": "www.fyianlai.com",
   "version": "1.0.0",
   "authors": [
-    "Ian Lai <ian@fyianlai.com>"
+    "Ian Lai <os@fyianlai.com>"
   ],
   "description": "A personal website powered by Jekyll.",
   "main": "index.html",
@@ -19,5 +19,6 @@
   "dependencies": {
     "normalize.css": "~3.0.3",
     "civil-css": "*"
-  }
+  },
+  "private": true
 }
