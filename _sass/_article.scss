@@ -22,14 +22,14 @@
             text-decoration: none;
 
             &:hover {
-                color: #E06C67;
+                color: #e26d68;
             }
         }
     }
     .article-datetime, .article-footer {
         color: #808080;
         display: block;
-        font-family: $heading-font;
+        font-family: $sans-serif;
         font-size: 0.773rem;
         font-weight: 400;
         line-height: 2.4257;

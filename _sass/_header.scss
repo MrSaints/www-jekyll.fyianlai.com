@@ -1,6 +1,6 @@
 .header {
     background: $primary-colour;
-    font-family: $heading-font;
+    font-family: $sans-serif;
     margin-bottom: $kl-i-2;
     padding: $kl-i-1;
 
@@ -15,7 +15,7 @@
 
     .logo {
         float: left;
-        font-size: 1.25rem;
+        font-size: $base-font-size;
         font-weight: bold;
         text-transform: uppercase;
     }

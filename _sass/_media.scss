@@ -1,7 +1,7 @@
 /*
  Small screen sizes
  */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: $base-content-width) {
     html {
         font-size: 80%;
     }

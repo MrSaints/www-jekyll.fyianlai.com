@@ -1,2 +1,206 @@
-/*! civil.css | MIT License | github.com/CivilApp/civil.css */body{line-height:1.5}img{display:block;height:auto;margin-bottom:1.875rem;max-width:100%}img.stretch{min-width:100%}.wrapper{margin:0 auto;max-width:100%;width:46.875rem}h1,h2,h3,h4,h5,h6{font-weight:400;margin:0 0 1.875rem}h1{font-size:3.27241rem;font-weight:300;line-height:1.14595}h2{font-size:2.61258rem;line-height:1.43536}h3{font-size:2.0225rem;line-height:1.85414}h4{font-size:1.6147rem;line-height:1.16121}h5,time{font-size:1.25rem;line-height:1.5}h6,small{font-size:0.77256rem;line-height:2.427;text-transform:uppercase}h4,h5,h6,small{font-weight:700}h1,h2,h3{text-rendering:optimizeLegibility}p,ul,ol{font-size:1.25rem;margin:0 0 1.875rem;text-rendering:optimizeLegibility}p small,p time,p code{line-height:100%}code{background:#EEE;font-size:1rem;padding:0.2951rem 0.47748rem}pre{border:1px solid #CCC;margin:0 0 1.875rem;padding:0.9375rem 1.875rem}pre code{background:none;padding:0}blockquote{font-style:italic;margin:0 0 1.875rem;padding:0.9375rem 1.875rem;position:relative}blockquote:after{content:"";border-bottom:1px solid #0a3039;position:absolute;bottom:0;left:50%;width:8.56691rem;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}ul ul,ul ol,ol ul,ol ol{margin:0}hr{background:#EEE;border:0;margin:2.66495rem auto;height:0.2951rem;width:50%}em,strong{line-height:100%}.block{position:relative}.block:before,.block:after{content:" ";display:table}.block:after{clear:both}
+/*! civil.css | MIT License | github.com/CivilApp/civil.css */
+/*
+ 1. Line height calculator
+ Uses a font-size input to calculate the ideal line-height
+ The ideal line-height maintains vertical rhythm
+ */
+/*
+ 1. Base defaults
+ Leave font-size alone: https://goo.gl/KtKtEi
+ */
+body {
+  line-height: 1.5; }
+
+/*
+ 2. Images
+ They're likely to break vertical rhythm when stretched
+ There's no real around this besides JavaScript
+
+ .stretch can be used to stretch small images to the container's width
+ */
+img {
+  display: block;
+  height: auto;
+  margin-bottom: 1.875rem;
+  max-width: 100%; }
+  img.stretch {
+    min-width: 100%; }
+
+/*
+ 3. Layout
+ */
+.wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+  /* 750px */
+  width: 46.875rem; }
+
+/*
+ Typography
+
+ Core principles:-
+ - Modular scale: 20px and 700px at 1.618 (golden ratio)
+   For more info. http://www.modularscale.com/?20,700&px&1.618&web&text
+
+ - Vertical rhythm: 1.25rem (of 16px) * 1.5 = 30px
+   Resulting rem spacing 0.9375 (2x), 1.875, 2.8125 (req: margins), 3.75
+
+ Contents
+ 1. Headings
+ 2. Meta elements
+ 3. Paragraphs
+ 4. Code blocks
+ 5. Quote blocks
+ 6. Lists
+ 7. Thematic break / divider
+ 8. Others
+ */
+/*
+ 1. Headings
+
+ Reset:
+ (a) font-weight -> sets it to normal, as the default (bold) is too overwhelming
+ (b) margin -> sets vertical rhythm for the bottom margin only
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 0 0 1.875rem; }
+
+h1 {
+  font-size: 3.27241rem;
+  font-weight: 300;
+  line-height: 1.14595; }
+
+h2 {
+  font-size: 2.61258rem;
+  line-height: 1.43536; }
+
+h3 {
+  font-size: 2.0225rem;
+  line-height: 1.85414; }
+
+h4 {
+  font-size: 1.6147rem;
+  line-height: 1.16121; }
+
+h5, time {
+  font-size: 1.25rem;
+  line-height: 1.5; }
+
+h6, small {
+  font-size: 0.77256rem;
+  line-height: 2.427;
+  text-transform: uppercase; }
+
+h4, h5, h6, small {
+  font-weight: 700; }
+
+h1, h2, h3 {
+  text-rendering: optimizeLegibility; }
+
+/*
+ 2. Meta elements
+
+ Inherits heading styles (h5, and h6 respectively)
+ */
+abbr[title], abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #CCC; }
+
+/*
+ 3. Paragraphs
+
+ Reset:
+ (a) font-size -> sets the REAL $base-font-size (i.e. not the body's one)
+ (b) margin -> 1 keyline increment bottom (similar to headings)
+ (c) text-rendering -> removes kerning added by the browser
+ */
+p, ul, ol, dl {
+  font-size: 1.25rem;
+  margin: 0 0 1.875rem;
+  text-rendering: optimizeLegibility; }
+
+p small, p time, p code {
+  line-height: 100%; }
+
+/*
+ 4. Code blocks
+
+ Much like <img>, it's likely to break vertical rhythm, but we'll ignore it
+ */
+code {
+  background: #EEE;
+  font-size: 1rem;
+  padding: 0.2951rem 0.47748rem; }
+
+pre {
+  border: 1px solid #CCC;
+  margin: 0 0 1.875rem;
+  padding: 0.9375rem 1.875rem; }
+  pre code {
+    background: none;
+    padding: 0; }
+
+/*
+ 5. Quote blocks
+ */
+blockquote {
+  font-style: italic;
+  margin: 0 0 1.875rem;
+  padding: 0.9375rem 1.875rem;
+  position: relative; }
+  blockquote:after {
+    content: "";
+    border-bottom: 1px solid #373B44;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 8.56691rem;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+/*
+ 6. Lists
+Same as paragraphs
+ */
+ul ul, ul ol, ol ul, ol ol, dl ul, dl ol {
+  margin: 0; }
+
+dt {
+  font-weight: 700; }
+
+dd {
+  margin: 0 0 1.875rem; }
+
+/*
+ 7. Thematic break / divider
+ */
+hr {
+  background: #EEE;
+  border: 0;
+  margin: 2.66495rem auto;
+  height: 0.2951rem;
+  width: 50%; }
+
+/*
+ 7. Others
+ */
+em, strong {
+  line-height: 100%; }
+
+/*
+ 1. Clearfix
+ Provided by HTML5 Boilerplate
+ */
+.block {
+  position: relative; }
+
+.block:before, .block:after {
+  content: " ";
+  display: table; }
+
+.block:after {
+  clear: both; }
+
 /*# sourceMappingURL=civil.css.map */

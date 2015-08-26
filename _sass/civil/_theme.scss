@@ -1,2 +1,51 @@
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}body{color:#40403D;font-family:"Merriweather","Georgia","Cambria","Times New Roman","Times",serif}h1,h2,h3,h4,h5,h6{color:#484844;font-family:"Nunito","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif}h1,h2,h3{color:#4d4d49}pre,code{font-family:"Source Code Pro","Bitstream Vera Sans Mono","Consolas","Courier",monospace}a{color:#FB7973}a:hover,a:focus{color:#e26d68;text-decoration:none}h1,h2,h3{line-height:3.75rem}h4,h5,h6,small{line-height:1.875rem}
+/*
+ Default theme
+ */
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  color: #40403D;
+  font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #464643;
+  font-family: "Nunito", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+h1, h2, h3 {
+  color: #4a4a47; }
+
+pre, code {
+  font-family: "Source Code Pro", "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
+
+time, small {
+  font-family: "Nunito", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+/*
+ Keep default underline for links because we are using a primary colour that is likely to be used on another element
+ It might not be as clean, but it's much easier to distinguish IMHO
+ */
+a {
+  -webkit-transition: all 0.33s ease-in-out;
+  -moz-transition: all 0.33s ease-in-out;
+  transition: all 0.33s ease-in-out;
+  color: #FB7973; }
+  a:hover, a:focus {
+    color: #e26d68;
+    text-decoration: none; }
+
+/*
+ Temporary fix for unusual line-height behaviour
+ */
+h1, h2, h3 {
+  line-height: 3.75rem; }
+
+h4, h5, h6, time, small {
+  line-height: 1.875rem; }
+
 /*# sourceMappingURL=theme.css.map */
