@@ -8,7 +8,7 @@ tags: legacy
 **Update (24/05/2014):** I have [recently discovered](http://stackoverflow.com/questions/21302069/disable-chrome-minimum-font-size-10px) that Chromium (Desktop) has [dropped support](http://trac.webkit.org/changeset/145168) for the `text-size-adjust` CSS property name rendering the original solution below invalid. The [alternative solution](https://support.google.com/chrome/answer/95416) is still functional. It is **not a bug** as far as I am concerned. It is related to the user's Chromium preferences, and it is not advisable to override them.
 
 
-#### Why does my website's font-size appear larger on other screens? Or why does it not appear as intended?
+**Why does my website's font-size appear larger on other screens? Or why does it not appear as intended?**
 
 A minimum font-size of 12px is set for Chrome users with a special, foreign UI locale (language) - e.g. Chinese, Korean, Japanese, Thai etc. If however, the font-size for any content on your website is set to a value that is less than 12px, it will automatically be resized to 12px. [WebKit](http://www.webkit.org/) - the web browser engine behind Chrome which handles the parsing and layout of websites - however, does support font-sizes of 12px and under. Indeed, for most UI locales, Chrome has set the minimum font-size to 1px (simply: anything smaller will be resized to 1px). The way Chrome behaves when dealing with special UI locales may become problematic for web designs relying heavily on [magic numbers](http://css-tricks.com/magic-numbers-in-css/) or typography. Indeed, other users and developers seem to be raising similar concerns about this behaviour and its adverse impact:
 
@@ -31,9 +31,11 @@ html, body {
 
 ### But, there is a catch.
 
-The solution is simply a quick as I have already mentioned. By disabling the auto-adjustment of your website's font sizes you will [introduce another problem for users with accessibility needs](http://www.456bereastreet.com/archive/201011/beware_of_-webkit-text-size-adjustnone/). Your website's font-sizes will no longer _react_ (resize) when a user zooms in / out of your website. Indeed, if your website relies heavily on small font-sizes (not that you should) your users may not have any way to read your content (there will be a lot of squinting involved!). Is trading the accessibility for aesthetics worth it for your website? Well, it depends on the purpose of the website and its niche, after all, not everyone (myself included) will take advantage of the browser's zooming feature.
+The solution is simply a quick as I have already mentioned. By disabling the auto-adjustment of your website's font sizes you will [introduce another problem for users with accessibility needs](http://www.456bereastreet.com/archive/201011/beware_of_-webkit-text-size-adjustnone/). Your website's font-sizes will no longer _react_ (resize) when a user zooms in / out of your website. Indeed, if your website relies heavily on small font-sizes (not that you should) your users may not have any way to read your content (there will be a lot of squinting involved!).
 
-Alternatively, you may manually alter the _"minimum_font_size"_ property in your [Chrome preferences](https://support.google.com/chrome/answer/95416?hl=en) to overwrite the minimum value. The new value however, will not be reflected to all your website's Chrome users. They will have to change the value themselves.
+Is trading the accessibility for aesthetics worth it for your website? Well, it depends on the purpose of the website and its niche, after all, not everyone (myself included) will take advantage of the browser's zooming feature.
+
+Alternatively, you may manually alter the `minimum_font_size` property in your [Chrome preferences](https://support.google.com/chrome/answer/95416?hl=en) to overwrite the minimum value. The new value however, will not be reflected to all your website's Chrome users. They will have to change the value themselves.
 
 
 ### Moving on...
