@@ -10,7 +10,7 @@ The following is a _re-mastered_ collection of bookmarks from **February 2012** 
 
 For a full list of content-curation web sites and users you can check out my [Twitter list here](https://twitter.com/MrSaints/friends). I have discontinued my "web dev/design bookmark" series of posts in favour of a unified collection of bookmarks in Evernote. You can check that out [here](https://www.evernote.com/shard/s233/sh/473897f7-0543-4b26-b849-18ded36d3236/f972fb216d32beb01866bc45615f87c8?noteKey=f972fb216d32beb01866bc45615f87c8&noteGuid=473897f7-0543-4b26-b849-18ded36d3236) - I have not included some of the links below.
 
-I originally created this blog post along with part 2 because I wanted to curate a list of useful links that I could come back to in the future, especially in cases where I vaguely remember where a certain resource or an article was from. There are a lot of cool stuff on the internet and sometimes you do not want to lose track of it.
+I originally created this blog post along with [part 2](/2012/03/web-design-and-development-bookmarks-part-2/) because I wanted to curate a list of useful links that I could come back to in the future, especially in cases where I vaguely remember where a certain resource or an article was from. There are a lot of cool stuff on the internet and sometimes you do not want to lose track of it.
 
 The web design and development community is vast and fascinating. If you are part of it, hopefully you would have figured that out by now and if not, you need only to explore all the links in this post to understand what I mean.
 
