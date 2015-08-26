@@ -21,6 +21,6 @@ Outside the realm of web development, I have a multitude of interests. These int
 
 In my spare time, I enjoy experimenting with new languages, libraries, and frameworks. Ocassionally, I document my adventures with these experiments, and blog about other musings. I also frequent Hacker News, Designer News, and Dribbble for daily news, and inspiration through the [Panda Chrome app](http://usepanda.com/).
 
-If you're bored of my website, be sure to stalk me elsewhere on the internet (see the [footer](#footer) for links) or visit my friends: [Jafnee](http://jafnee.com/), [Karl](http://mbwkarl.com/), and [Shailendra](http://shailendra.me/). I'm also maintaining a list of [bookmarks](http://www.evernote.com/shard/s233/sh/473897f7-0543-4b26-b849-18ded36d3236/f972fb216d32beb01866bc45615f87c8), and [Twitter users](https://twitter.com/MrSaints/web) for web enthusiasts like myself.
+If you're bored of my website, be sure to ~~stalk~~ befriend me elsewhere on the internet (see the [footer](#footer) for links) or visit my friends: [Jafnee](http://jafnee.com/), [Karl](http://mbwkarl.com/), and [Shailendra](http://shailendra.me/). I'm also maintaining a list of [bookmarks](http://www.evernote.com/shard/s233/sh/473897f7-0543-4b26-b849-18ded36d3236/f972fb216d32beb01866bc45615f87c8), and [Twitter users](https://twitter.com/MrSaints/web) for web enthusiasts like myself.
 
 I'm always available to chat. Don't be shy, drop me a [message](/hello).
