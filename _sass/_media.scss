@@ -1,7 +1,11 @@
 /*
  Small screen sizes
  */
-@media only screen and (max-width: 46.875em) {
+@media only screen and (max-width: 750px) {
+    html {
+        font-size: 80%;
+    }
+
     .wrapper {
         margin: 0 1.615rem;
         width: auto;
