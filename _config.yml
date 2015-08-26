@@ -16,7 +16,7 @@ exclude:
     - Gruntfile.coffee
     - bower.json
     - package.json
-#    - bower_components/
+    - bower_components/
     - node_modules/
 paginate: 5
 paginate_path: "/page/:num/"
