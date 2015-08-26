@@ -5,7 +5,7 @@ disqus_id: "268 http://www.fyianlai.com/?p=268"
 tags: legacy
 ---
 
-#### `$wpdb` can only access and manipulate the WordPress database. How may I do the same for another database with different credentials?
+**`$wpdb` can only access and manipulate the WordPress database. How may I do the same for another database with different credentials?**
 
 WordPress provides developers with a class of functions to manipulate the database and this is particularly useful for custom plugins and/or themes. Developers may interface - create, read, write and/or delete data - with the WordPress database via the [global `$wpdb` object](http://codex.wordpress.org/Class_Reference/wpdb); however, to interact with another database (an external/secondary one) a new instantiation of the wpdb class is required. In WordPress' codex, [hyperdb](http://wordpress.org/extend/plugins/hyperdb/) is recommended as the solution _"for extremely complicated setups with many databases"_. If however, you are not too keen on using someone else's plugin it is pretty simple to create your own custom database object using the wpdb class.
 
@@ -15,7 +15,7 @@ Here is a [gist](https://gist.github.com/MrSaints/8209879) of how you may do so:
 
 <!-- TODO: Fix line comments -->
 
-{% highlight php %}
+{% highlight php linenos %}
 <?php
 define('DB_HOST', '127.0.0.1');
 define('DB_USER', 'root');
@@ -58,11 +58,11 @@ $Custom_DB = new CustomDatabase;
 
 ## Explain it to me?
 
-The example in the gist above demonstrates how you can use the wpdb class provided by WordPress to communicate with an external database with entirely different database credentials (host, username, password and database name) as evident from line 25 to 28. In the example above, we are working with a database containing data of students in a school.
+The example in the gist above demonstrates how you can use the wpdb class provided by WordPress to communicate with an external database with entirely different database credentials (host, username, password and database name) as evident from line 2 to 5. In the example above, we are working with a database containing data of students in a school.
 
-The CustomDatabase class seen above begins by instantiating the wpdb class into `$this->db` object as seen by the class constructor (line 34 to 42). A connection to the external database is stored in the object and it will not interfere with your WordPress database connection (which is likely if you were to connect using conventional PHP MySQL functions). Unlike the `$wpdb` global object however, `$this->db` is only accessible by the class itself (hence, the [private declaration](http://www.php.net/manual/en/language.oop5.visibility.php)) and it is not publicly accessible (unless you make it so). Furthermore, `$wpdb` is only capable of interacting with the WordPress database as I have previously mentioned.
+The CustomDatabase class seen above begins by instantiating the wpdb class into `$this->db` object as seen by the class constructor (line 11 to 19). A connection to the external database is stored in the object and it will not interfere with your WordPress database connection (which is likely if you were to connect using conventional PHP MySQL functions). Unlike the `$wpdb` global object however, `$this->db` is only accessible by the class itself (hence, the [private declaration](http://www.php.net/manual/en/language.oop5.visibility.php)) and it is not publicly accessible (unless you make it so). Furthermore, `$wpdb` is only capable of interacting with the WordPress database as I have previously mentioned.
 
-Using the custom instantiation of wpdb (stored in `$this->wpdb`) we can then manipulate data from our external database as seen on line 44 to 57\. The `count_users()` function will return the total number of students in our students table of our external database. The `update_student_id()` function will update the students table by changing the name of a student with a specified student ID. As `$this->wpdb` is an object instantiation of the wpdb class, you may use any of its methods (refer to the [WordPress Codex](http://codex.wordpress.org/Class_Reference/wpdb) to find out more about the methods you may use along with their respective arguments/parameters).
+Using the custom instantiation of wpdb (stored in `$this->wpdb`) we can then manipulate data from our external database as seen on line 21 to 34. The `count_users()` function will return the total number of students in our students table of our external database. The `update_student_id()` function will update the students table by changing the name of a student with a specified student ID. As `$this->wpdb` is an object instantiation of the wpdb class, you may use any of its methods (refer to the [WordPress Codex](http://codex.wordpress.org/Class_Reference/wpdb) to find out more about the methods you may use along with their respective arguments/parameters).
 
 You may use the described functions above by calling `$Custom_DB->count_users()`. The try-catch statement in the example is not necessary, but you should include a fallback / a mechanism to deal with failed database connections as it may interfere with your application.
 
