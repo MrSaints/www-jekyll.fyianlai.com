@@ -1,7 +1,7 @@
 ---
 date: 2014-05-11 15:20:00
 title: "On long showers and deep thought."
-redirect_from: "/2014/05/on-long-showers-and-deep-thought-x-post-from-my-tumblr"
+redirect_from: "/2014/05/on-long-showers-and-deep-thought-x-post-from-my-tumblr/"
 ---
 
 The following post is a _x-post_ from my [private] Tumblr. I think this is the only post from my Tumblr worthy of being included here (available for the public, if anyone is even interested; and search engines). The post was in response to (or rather, just building upon) an [answer provided by Hank Green](http://edwardspoonhands.com/post/81366082695/hank-is-there-any-psychological-or-biological-reason) to a question posed by another Tumblr user.
