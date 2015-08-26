@@ -4,14 +4,32 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{% if paginator.page > 1 %}Blog &mdash; Page {{ paginator.page }} &#124; {% elsif page.title %}{{ page.title }} &#124; {% endif %}{{ site.title }}</title>
-    {% if page.description %}
-        {% assign description = page.description %}
-    {% elsif is_home %}
-        {% assign description = site.description %}
+    {% if paginator.page > 1 %}
+        {% capture current_title %}Blog &mdash; Page {{ paginator.page }} &#124; {% endcapture %}
+    {% elsif page.title %}
+        {% capture current_title %}{{ page.title }} &#124; {% endcapture %}
     {% endif %}
-    <meta name="description" content="{{ description }}">
+    <title>{{ current_title }}{{ site.title }}</title>
+    {% if page.is_home %}
+        {% assign current_description = site.description %}
+        {% assign current_type = "website" %}
+    {% else %}
+        {% assign current_description = page.description %}
+        {% assign current_type = "article" %}
+    {% endif %}
+    <meta name="description" content="{{ current_description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="{{ current_type }}">
+    <meta property="og:title" content="{{ current_title }}{{ site.title }}">
+    <meta property="og:description" content="{{ current_description }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:image" content="{{ site.url }}/img/thumb.jpg">
+
+    <link href="{{ site.url }}/feed" type="application/atom+xml" rel="alternate" title="Feed &#124; {{ site.title }}">
 
     <!--<link rel="stylesheet" href="http://basehold.it/30">-->
 
@@ -30,7 +48,7 @@
 <header class="header block">
     <div class="wrapper">
         <!--  'Branding' -->
-        <div class="logo"><a href="/">Ian Lai</a></div>
+        <div class="logo"><a href="/">{{ site.title }}</a></div>
         <!-- Navigation -->
         <nav class="navbar" role="navigation">
             <ul>
