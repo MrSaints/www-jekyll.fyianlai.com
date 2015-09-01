@@ -31,9 +31,9 @@ time, small {
  It might not be as clean, but it's much easier to distinguish IMHO
  */
 a {
-  -webkit-transition: all 0.33s ease-in-out;
-  -moz-transition: all 0.33s ease-in-out;
-  transition: all 0.33s ease-in-out;
+  -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   color: #FB7973; }
   a:hover, a:focus {
     color: #e26d68;
