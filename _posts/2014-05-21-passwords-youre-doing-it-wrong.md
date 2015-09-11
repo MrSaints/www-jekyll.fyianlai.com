@@ -111,6 +111,8 @@ It is a legacy design ingrained by browser vendors. We have adhered to it becaus
 
 Nielsen instead recommends offering users a checkbox to have their password masked for high-risk locations (internet cafes) or high-risk applications (bank accounts). Indeed, Microsoft's Internet Explorer 10 have included a small icon for password fields that will allow users to view their password in plaintext.
 
+If you have never heard of Nielsen, he is an acclaimed web usability consultant. He is known for publishing his [usability heuristics](http://www.nngroup.com/articles/ten-usability-heuristics/) in 1994. Currently, his heuristics are perhaps the most-used heuristics for user interface design. It is a set of guidelines that may be used to identify potential usability problems in a design (albeit, not strictly). You can run a heuristic evaluation on your own website through [UX Check](https://chrome.google.com/webstore/detail/ux-check/giekhiebdpmljgchjojblnekkcgpdobp) (a Chrome extension).
+
 
 ## Do what we can with what we got.
 
@@ -134,3 +136,7 @@ Preventing errors from occurring is always the [best course of action](http://ww
 **Update (04/11/2014):** Is it time for [Passwordless Authentication](http://notebook.ideapublic.org/2014/one-less-password/)? Researchers at Mozilla proposed an _innovative_ approach towards login systems which relies on authentication tokens sent to the users' e-mail address or through SMS. Thoughts?
 
 **Update (30/01/2015):** Duncan of [Vents that Look Like Faces](https://vtllf.org/) discussed the prospects of [_piggybacking_ on existing  SSH technology](https://vtllf.org/blog/ssh-web-sign-in) and using it as an option for web sign-in. A demo was also developed as a proof-of-concept and assessments were made based on usability, deployability and security considerations (part of a scoring framework advanced in [The Quest to Replace Passwords](http://research.microsoft.com/pubs/161585/QuestToReplacePasswords.pdf) by Joseph Bonneau, Cormac Herley, Paul C. van Oorschot and Frank Stajano). These considerations allows us to consider the intricacies of attempts at replacing the conventional password system, and it allows us to contextualise the longevity as well as the prevalence of such system design. Through this framework we can weigh the relative advantages and disadvantages of alternative modes of login.
+
+**Update (11/09/2015):** Anthony, the editor-in-chief of [UX Movement](http://uxmovement.com/), provides a case for [removing the password confirmation field](http://uxmovement.com/forms/why-the-confirm-password-field-must-die/), and forced password masking as it is likely to lower conversion rate. Similarly, he recommends that a "show password toggle" should instead be offered.
+
+> By giving users control over their password input, you give them the peace of mind to complete your form.
