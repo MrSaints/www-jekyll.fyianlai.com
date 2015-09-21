@@ -29,6 +29,8 @@ This extension was built to cater for that need. After all, sometimes what I fin
 
 ### Features
 
+[![v2.3.1](/img/historyx-screenshot.png)](/img/historyx-screenshot.png)
+
 HistoryX supports the basic listing, searching, and paging feature that you can find on the default browser page.
 
 Additionally, you can:
@@ -102,6 +104,8 @@ This is the first, and last history page extension you will ever need.
 
 
 ## Development
+
+[![Source Code](/img/historyx-screenshot-2.png)](/img/historyx-screenshot-2.png)
 
 I have decided to release the extension after **64 commits** consisting of a name change, several changes to its dependencies, and countless iterations to both its design, and code architecture. In spite of all this, it is far from its _final form_. And there is still a long [list of additions, and improvements][roadmap] that have yet to be made.
 
