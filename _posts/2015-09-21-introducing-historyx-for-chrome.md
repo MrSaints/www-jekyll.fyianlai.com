@@ -9,13 +9,11 @@ I am excited to introduce, [HistoryX][source] _(v2.3.1)_, an open source [Chrome
 
 It is ideal for regular, and power users alike. The former can take advantage of the improved interface, and smooth [materialesque][material] browsing experience, while the latter can take advantage of the **search, sort, group, and filter features**.
 
-<!--more-->
-
 ---
-
 
 You can [install v2.3.1][download] in the Chrome Web Store now or download the [source][], and run it in [developer mode][].
 
+<!--more-->
 
 ## Background
 
