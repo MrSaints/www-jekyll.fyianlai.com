@@ -1,6 +1,7 @@
 ---
 date: 2015-09-21 19:51
 title: "Introducing: HistoryX for Chrome"
+thumbnail: "/img/historyx.png"
 ---
 
 [![HistoryX for Chrome]({{site.url}}/img/historyx.png)]({{site.url}}/img/historyx.png)

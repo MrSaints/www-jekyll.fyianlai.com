@@ -3,6 +3,7 @@ defaults:
         path: ""
       values:
         layout: "default"
+        thumbnail: "/img/thumb.jpg"
     - scope:
         path: ""
         type: "posts"
