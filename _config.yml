@@ -21,7 +21,7 @@ exclude:
     - node_modules/
 paginate: 5
 paginate_path: "/page/:num/"
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 sass:
     style: :compressed
 analytics_id: "UA-5243796-6"
