@@ -139,6 +139,8 @@ Finally, there are several FAQs I would like to address before they are brought 
 
 4. **What is the logo supposed to be?**
 
+    [![Flux Capacitor]({{site.url}}/img/flux.jpg)]({{site.url}}/img/flux.jpg)
+
     It is a very unimaginative modification of the [flux capacitor][] to resemble the letter X. The flux capacitor is the core component of a fictional time machine - called the _DeLorean_ - from the movie [Back to the Future][bttf]. In the words of Dr. Emmet Brown, a fictional character (or rather, a mad scientist) in the movie, it is:
 
     > What makes time travel possible.
