@@ -94,7 +94,7 @@ Users should be informed about the validation requirements before the validation
 
 Restrictions may vary from one website to another. Thus, it should be made explicitly clear what would constitute an "acceptable password" (e.g. special characters, uppercase/lowercase, numbers, etc) if you do intend on setting restrictions. Take French Connection United Kingdom (FCUK) online registration form for example:
 
-[![Vague restrictions](/img/fcuk.jpg)](/img/fcuk.jpg)
+[![Vague restrictions]({{site.url}}/img/fcuk.jpg)]({{site.url}}/img/fcuk.jpg)
 
 The developers only made clear the lower bound limits, but made no attempt at informing me of the specific upper bound limits (even after the form has been validated). Please do not force your users into a guessing game. It took me several attempts before I realised that the character limit was 12 and that I could not use special characters. By making the lower bound limits obvious instead of the upper bound limits, you are only _encouraging_ users to go for the bare minimum (to avoid your otherwise annoyingly vague form rules and error messages).
 
