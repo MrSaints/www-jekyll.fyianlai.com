@@ -6,13 +6,13 @@ thumbnail: "/img/historyx.png"
 
 [![HistoryX for Chrome]({{site.url}}/img/historyx.png)]({{site.url}}/img/historyx.png)
 
-I am excited to introduce, [History<sup>&chi;</sup>][source] _(v2.3.1)_, an open source [Chrome extension][download] that I have been sporadically working on this past week. In the project manifest (and on GitHub), it is described as an _"extension to enhance your browsing history experience"_. But more specifically, it is an extension which, when enabled, will replace your existing history page with one that is leaner, and expanded with functionality.
+I am excited to introduce, [History<sup>&chi;</sup>][source] _(v2.4.0)_, an open source [Chrome extension][install] that I have been sporadically working on this past week. In the project manifest (and on GitHub), it is described as an _"extension to enhance your browsing history experience"_. But more specifically, it is an extension which, when enabled, will replace your existing history page with one that is leaner, and expanded with functionality.
 
 It is ideal for regular, and power users alike. The former can take advantage of the improved interface, and smooth [materialesque][material] browsing experience, while the latter can take advantage of the **search, sort, group, and filter features**.
 
 ---
 
-You can [install v2.3.1][download] in the Chrome Web Store now or download the [source][], and run it in [developer mode][].
+You can [install v2.4.0][install] in the Chrome Web Store now or download the [source][], and run it in [developer mode][].
 
 <!--more-->
 
@@ -28,7 +28,7 @@ This extension was built to cater for that need. After all, sometimes what I fin
 
 ### Features
 
-[![v2.3.1]({{site.url}}/img/historyx-screenshot.png)]({{site.url}}/img/historyx-screenshot.png)
+[![v2.4.0]({{site.url}}/img/historyx-screenshot.png)]({{site.url}}/img/historyx-screenshot.png)
 
 History<sup>&chi;</sup> supports the basic listing, searching, and paging feature that you can find on the default browser page.
 
@@ -121,7 +121,13 @@ This project does not have an official communication channel, but I am generally
 
 ## Post-publishing
 
-It has just occurred to me, upon publishing my extension, that I have not included any option to delete a visit. I will be releasing a new version to address this as soon as possible.
+<del>It has just occurred to me, upon publishing my extension, that I have not included any option to delete a visit. I will be releasing a new version to address this as soon as possible.</del>
+
+**Update v2.4.0 (23/09/15):**
+
+- You can now delete a visit from your history. For developers, the delete button can be found in the history actions component. Mouseover over a visit to see the delete button;
+- The visit's full URL is now shown below its title;
+- The results' data are organised (i.e. positioned) through flexbox.
 
 Finally, there are several FAQs I would like to address before they are brought up:
 
@@ -153,7 +159,7 @@ Finally, there are several FAQs I would like to address before they are brought 
 
 
 
-[download]: https://chrome.google.com/webstore/detail/historyx/eogcblpflkiminggblnpdhmdkihgceif?hl=en-GB&gl=GB
+[install]: https://goo.gl/d8D1JP
 [source]: https://github.com/MrSaints/historyx
 [developer mode]: https://developer.chrome.com/extensions/getstarted#unpacked
 [react]: https://facebook.github.io/react/
