@@ -5,7 +5,7 @@ layout: single
 
 Hello! My name is Ian, and welcome to my personal website.
 
-I'm an autodidact, full-stack web developer (minus mobile development) who is currently based in London. I'm also recent graduate in BSc. International Relations.
+I'm an autodidact, full-stack web developer (minus mobile development) who is currently based in London. I'm also a recent graduate in BSc. International Relations.
 
 As a self-proclaimed, full-stack web developer (or a web unicorn, to borrow from contemporary startup lingo), I have amassed approximately 10+ years worth of experience working in both backend, and frontend web development.
 
