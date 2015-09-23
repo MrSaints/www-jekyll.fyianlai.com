@@ -32,7 +32,7 @@ This extension was built to cater for that need. After all, sometimes what I fin
 
 [![v2.4.0]({{site.url}}/img/historyx-screenshot.png)]({{site.url}}/img/historyx-screenshot.png)
 
-History<sup>&chi;</sup> supports the basic listing, searching, and paging feature that you can find on the default browser page.
+History<sup>&chi;</sup> supports the basic listing, deleting, searching, and paging feature that you can find on the default browser page.
 
 Additionally, you can:
 
@@ -108,7 +108,7 @@ This is the first, and last history page extension you will ever need.
 
 [![Source Code]({{site.url}}/img/historyx-screenshot-2.png)]({{site.url}}/img/historyx-screenshot-2.png)
 
-I have decided to release the extension after **64 commits** consisting of a name change, several changes to its dependencies, and countless iterations to both its design, and code architecture. In spite of all this, it is far from its _final form_. And there is still a long [list of additions, and improvements][roadmap] that have yet to be made.
+I have decided to release the extension after <del>**64 commits**</del> **75 commits** consisting of a name change, several changes to its dependencies, and countless iterations to both its design, and code architecture. In spite of all this, it is far from its _final form_. And there is still a long [list of additions, and improvements][roadmap] that have yet to be made.
 
 It is a _work in progress_.
 
@@ -127,9 +127,9 @@ This project does not have an official communication channel, but I am generally
 
 **Update v2.4.0 (23/09/15):**
 
-- You can now delete a visit from your history. For developers, the delete button can be found in the history actions component. Mouseover over a visit to see the delete button;
+- You can now delete a visit from your history. For developers, the delete button can be found in the history actions component. Mouseover a visit to see the delete button;
 - The visit's full URL is now shown below its title;
-- The results' data are organised (i.e. positioned) through flexbox.
+- The results' data are organised (i.e. positioned) through flexbox. From my knowledge, this should be supported in most Chrome browsers (31+).
 
 Finally, there are several FAQs I would like to address before they are brought up:
 
