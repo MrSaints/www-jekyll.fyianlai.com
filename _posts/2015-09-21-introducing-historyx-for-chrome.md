@@ -133,7 +133,7 @@ This project does not have an official communication channel, but I am generally
 
 Finally, there are several FAQs I would like to address before they are brought up:
 
-1. **In the results, why are some of the dates faded, and shown in full?**
+1. **In the results, why are some of the dates shown in full?**
 
     As mentioned [earlier](#constraint), there are several constraints when using the [`chrome.history` API][history API]. One of which is that it only returns the date / time you last visited a website (i.e. most recent access to a URL). If you have visited it before, it will still show up in the API results as a visit, but it will not show the actual date / time you visited it.
 
