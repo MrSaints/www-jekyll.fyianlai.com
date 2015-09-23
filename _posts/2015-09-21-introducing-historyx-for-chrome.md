@@ -12,6 +12,8 @@ It is ideal for regular, and power users alike. The former can take advantage of
 
 ---
 
+[![Install via Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)][install]
+
 You can [install v2.4.0][install] in the Chrome Web Store now or download the [source][], and run it in [developer mode][].
 
 <!--more-->
