@@ -15,10 +15,10 @@ If you are running a website that requires a user-password-based authentication 
 
 I can only identify [six key reasons](http://security.stackexchange.com/questions/33470/what-technical-reasons-are-there-to-have-low-maximum-password-lengths) why any website would choose to set an upper bound limit on a user's password:
 
-1. The use of legacy systems and/or a legacy password hashing function.
-2. Convention and/or a guideline set by a very naïve, higher authority.
-3. To store the password in plaintext or encrypted plaintext (different from hashing) [to accommodate a database schema].
-4. Developing from point 3: to prevent injection-based attacks.
+1. The use of legacy systems and/or a legacy password hashing function;
+2. Convention and/or a guideline set by a very naïve, higher authority;
+3. To store the password in plaintext or encrypted plaintext (different from hashing) [to accommodate a database schema];
+4. Developing from point 3: to prevent injection-based attacks;
 5. _Reduce likelihood of users forgetting?_
 6. To mitigate (D)DoS attacks.
 
@@ -140,3 +140,5 @@ Preventing errors from occurring is always the [best course of action](http://ww
 **Update (11/09/2015):** Anthony, the editor-in-chief of [UX Movement](http://uxmovement.com/), provides a case for [removing the password confirmation field](http://uxmovement.com/forms/why-the-confirm-password-field-must-die/), and forced password masking as it is likely to lower conversion rate. Similarly, he recommends that a "show password toggle" should instead be offered.
 
 > By giving users control over their password input, you give them the peace of mind to complete your form.
+
+**Update (08/10/2015):** [Password Requirements Shaming](http://password-shaming.tumblr.com/) is yet another Tumblr dedicated towards _shaming_ websites with ridiculous password requirements / questionable management practices. Commentary is included for most of the offending sites.
