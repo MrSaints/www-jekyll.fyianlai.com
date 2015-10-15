@@ -8,7 +8,8 @@
 }
 
 .share-buttons {
-    display: inline-block;
+    @include display(flex);
+    @include justify-content(center);
     margin: $kl-i-1-2 0;
 }
 
