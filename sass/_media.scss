@@ -1,0 +1,23 @@
+@media only screen and (max-width: $base-content-width) {
+    html {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        margin: 0 $kl-i-1;
+        width: auto;
+    }
+
+    .footer {
+        .copyright {
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            float: none;
+            justify-content: center;
+            margin-top: $kl-i-1;
+        }
+    }
+}
