@@ -7,7 +7,7 @@
                     <time class="article-date" datetime="{{ article.date }}"><a href="{{ article.url }}">{{ article.date | date_to_long_string }}</a></time>
                 {% endif %}
             {% else %}
-                <a href="/" class="breadcrumbs"><i class="fa fa-home"></i> Home</a>
+                <a href="/" class="breadcrumbs"><i class="fa fa-home"></i>&nbsp;&nbsp;Home</a>
                 <h1 class="article-title current animated fadeInDown">{{ page.title }}</h1>
                 {% if page.date %}
                     <time class="article-date" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>

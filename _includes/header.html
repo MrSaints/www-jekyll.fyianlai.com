@@ -43,7 +43,9 @@
 
 <header class="header block">
     <div class="wrapper">
-        <a href="/" class="brand">{{ site.title }}</a>
+        <div class="brand">
+            <a href="/" class="nav-title">{{ site.title }}</a>
+        </div>
 
         <nav class="nav" role="navigation">
             <a href="/about" class="nav-item {% if page.title == "About" %}current{% endif %}">About</a>
