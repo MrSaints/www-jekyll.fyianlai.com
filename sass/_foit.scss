@@ -1,0 +1,23 @@
+@import "bourbon";
+@import "modules/variables";
+
+$serif-objs: "body";
+$sans-serif-objs: "h1, h2, h3, h4, h5, h6, time, .btn, .header a";
+
+#{$serif-objs} {
+    font-family: $georgia;
+}
+
+#{$sans-serif-objs} {
+    font-family: $helvetica;
+}
+
+.wf-active {
+    #{$serif-objs} {
+        font-family: $serif;
+    }
+
+    #{$sans-serif-objs} {
+        font-family: $sans-serif;
+    }
+}
