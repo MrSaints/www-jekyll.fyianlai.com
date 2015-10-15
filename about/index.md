@@ -1,6 +1,5 @@
 ---
 title: About
-layout: single
 ---
 
 Hello! My name is Ian, and welcome to my personal website.

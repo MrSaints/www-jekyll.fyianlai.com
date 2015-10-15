@@ -1,0 +1,32 @@
+<article class="article block {{ cycle }}">
+    <div class="wrapper">
+        <header class="article-head block">
+            {% if article %}
+                <h1 class="article-title"><a href="{{ article.url }}">{{ article.title }}</a></h1>
+                {% if article.date %}
+                    <time class="article-date" datetime="{{ article.date }}"><a href="{{ article.url }}">{{ article.date | date_to_long_string }}</a></time>
+                {% endif %}
+            {% else %}
+                <a href="/" class="breadcrumbs"><i class="fa fa-home"></i> Home</a>
+                <h1 class="article-title current">{{ page.title }}</h1>
+                {% if page.date %}
+                    <time class="article-date" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+                {% endif %}
+            {% endif %}
+        </header>
+
+        {% if article %}
+            <div class="article-content block">
+                {{ article.excerpt }}
+            </div>
+
+            <footer class="article-footer block">
+                <a href="{{ article.url }}" class="btn btn-primary-ghost btn-continue">Continue reading &raquo;</a>
+            </footer>
+        {% else %}
+            <div class="article-content">
+                {{ content }}
+            </div>
+        {% endif %}
+    </div>
+</article>

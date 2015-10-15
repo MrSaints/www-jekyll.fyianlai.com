@@ -1,3 +1,23 @@
+# Metadata
+title: "Ian Lai"
+description: "Words from an autodidact, full-stack web developer (minus mobile development) who is currently based in London."
+url: "https://www.fyianlai.com"
+analytics_id: "UA-5243796-6"
+disqus: "ianlai"
+twitter: MrSaints
+
+# Social media
+social:
+    - slug: behance
+      url: "https://www.behance.net/MrSaints"
+    - slug: dribbble
+      url: "https://dribbble.com/MrSaints"
+    - slug: github
+      url: "https://github.com/MrSaints"
+    - slug: twitter
+      url: "https://twitter.com/MrSaints"
+
+# Site config
 defaults:
     - scope:
         path: ""
@@ -10,29 +30,22 @@ defaults:
       values:
         author: "Ian Lai"
         is_post: true
-        layout: "single"
 excerpt_separator: <!--more-->
-exclude:
-    - CNAME
-    - Gruntfile.coffee
-    - bower.json
-    - package.json
-    - bower_components/
-    - node_modules/
+
+# Pagination
 paginate: 5
 paginate_path: "/page/:num/"
 permalink: /:year/:month/:title/
-sass:
-    style: :compressed
-analytics_id: "UA-5243796-6"
-title: "Ian Lai"
-description: "Words from an autodidact, full-stack web developer (minus mobile development) who is currently based in London."
-url: "https://www.fyianlai.com"
-social:
-    disqus: "ianlai"
-    behance: "https://www.behance.net/MrSaints"
-    dribbble: "https://dribbble.com/MrSaints"
-    github: "https://github.com/MrSaints"
-    twitter: "https://twitter.com/MrSaints"
+
 gems:
     - jekyll-redirect-from
+exclude:
+    - CNAME
+    - Gemfile
+    - Rakefile
+    - bower.json
+    - gulpfile.js
+    - package.json
+    - bower_components/
+    - node_modules/
+    - sass/

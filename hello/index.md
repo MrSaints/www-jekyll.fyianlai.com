@@ -1,6 +1,5 @@
 ---
 title: Contact
-layout: single
 ---
 
 ### Hello World!
@@ -10,24 +9,26 @@ Let's talk. <span title="Yes. I'm happy to help guide you to the best of my abil
 
 <form action="//formspree.io/os@fyianlai.com" method="POST">
     <ul class="form-inputs">
-        <li>
+        <li class="input-group">
             <label class="input-label" for="name">Name</label>
             <input class="input-text" id="name" type="text" name="name">
         </li>
-        <li>
+        <li class="input-group">
             <label class="input-label" for="email">E-mail address</label>
             <input class="input-text" id="email" type="email" name="_replyto">
         </li>
-        <li>
+        <li class="input-group">
             <label class="input-label" for="message">Message</label>
             <textarea class="input-text" id="message" name="message" rows="5"></textarea>
         </li>
-        <li>
+        <li class="input-group">
             <small class="input-hint">
                 Your e-mail address will not be shared or saved by me. Your message will be sent using Mailgun's API, and hence, their privacy policy applies.
             </small>
+        </li>
+        <li class="input-group">
             <input type="text" name="_gotcha" style="display:none">
-            <input class="input-button" type="submit" value="Send Message">
+            <input class="btn btn-secondary input-btn" type="submit" value="Send Message">
         </li>
     </ul>
 </form>

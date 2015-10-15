@@ -1,0 +1,11 @@
+{% include header.html %}
+
+<main role="main">
+{% for article in paginator.posts %}
+    {% capture cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% include single.html %}
+{% endfor %}
+</main>
+
+{% include paginator.html %}
+{% include footer.html %}

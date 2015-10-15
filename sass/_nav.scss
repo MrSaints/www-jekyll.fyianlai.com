@@ -1,0 +1,14 @@
+.nav {
+    float: right;
+}
+
+.nav-item {
+    background: none;
+    display: block;
+    float: left;
+    margin-right: $kl-i-1;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

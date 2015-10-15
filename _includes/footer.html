@@ -1,15 +1,28 @@
-<footer id="footer" class="footer block">
+<footer class="footer block">
     <div class="wrapper">
-        <small class="footer-copyright"><i class="fa fa-copyright"></i> {{ site.time | date: '%Y' }} <a href="/">{{ site.title }}</a></small>
-        <ul class="footer-links">
-            <li><a href="/feed"><i class="fa fa-rss"></i></a></li>
-            <li><a href="{{ site.social.behance }}"><i class="fa fa-behance"></i></a></li>
-            <li><a href="{{ site.social.dribbble }}"><i class="fa fa-dribbble"></i></a></li>
-            <li><a href="{{ site.social.github }}"><i class="fa fa-github-alt"></i></a></li>
-            <li><a href="{{ site.social.twitter }}"><i class="fa fa-twitter"></i></a></li>
-        </ul>
+        <a href="/" class="brand">Handcrafted with <span class="hearts">&#10084;</span> by Ian</a>
+
+        <nav class="nav">
+            <a href="/feed" class="nav-item" title="RSS Feed"><i class="fa fa-rss"></i></a>
+            {% for link in site.social %}
+                <a href="{{ link.url }}" class="nav-item"><i class="fa fa-{{ link.slug }}" title="{{ link.slug | capitalize }}"></i></a>
+            {% endfor %}
+        </nav>
     </div>
 </footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+<script>
+WebFont.load({
+    google: {
+        families: [
+            "Nunito:300,400,700",
+            "Lora:400,400italic,700,700italic",
+            "Source Code Pro"
+        ]
+    }
+});
+</script>
 
 {% include analytics.html %}
 </body>

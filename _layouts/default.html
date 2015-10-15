@@ -1,7 +1,18 @@
 {% include header.html %}
-<div class="content" role="main">
-    <!-- List -->
-    {{ content }}
+
+<main role="main">
+{% include single.html %}
+</main>
+
+{% if page.is_post %}
+    <!-- Social Media -->
+    {% include share.html %}
+
+    <!-- Paginator -->
     {% include paginator.html %}
-</div>
+
+    <!-- Comments -->
+    {% include comments.html %}
+{% endif %}
+
 {% include footer.html %}

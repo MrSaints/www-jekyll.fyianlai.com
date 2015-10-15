@@ -1,0 +1,36 @@
+@import "variables";
+@import "civil";
+
+@mixin magic-link($c: #FFF) {
+    background: none;
+    display: inline-block;
+    position: relative;
+
+    &:hover:after {
+        @include transform(translateY(5px) scale(1.1));
+        opacity: 0;
+    }
+
+    &:after {
+        @include transition(all 0.3s cubic-bezier(0.4, 0, 0.2, 1));
+        background: $c;
+        bottom: 1px;
+        content: "";
+        height: 1px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@import "header";
+@import "footer";
+@import "nav";
+@import "article";
+@import "paginator";
+@import "contact";
+@import "share";
+
+body {
+    background: $background-colour;
+}

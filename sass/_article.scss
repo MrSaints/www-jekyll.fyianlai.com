@@ -1,0 +1,64 @@
+.article {
+    padding: $kl-i-2 0;
+}
+
+.article-head {
+    margin-bottom: $kl-i-2;
+    text-align: center;
+
+    a {
+        background: none;
+        color: inherit;
+        &:hover {
+            color: $primary-colour;
+        }
+    }
+}
+
+.article-title {
+    color: tint($base-font-colour, 13%);
+}
+
+.article-date {
+    color: tint($base-font-colour, 30%);
+    display: block;
+    font-size: $h6-font-size;
+    text-transform: uppercase;
+}
+
+.article-content {
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: $kl-i-2;
+    }
+}
+
+.article-footer {
+    margin: $kl-i-1 0;
+}
+
+.btn-continue {
+    font-size: $h6-font-size;
+    text-transform: uppercase;
+    line-height: rem(30);
+}
+
+.even {
+    background: $background-colour-even;
+}
+
+.current {
+    color: $secondary-colour;
+}
+
+.breadcrumbs {
+    display: block;
+    font-size: rem(16);
+    line-height: $kl-i-1;
+    margin-bottom: $kl-i-2;
+}
+
+.comments {
+    background: $background-colour-even;
+    border-top: 1px solid rgba(#000, 0.13);
+    padding: $kl-i-2 0;
+}

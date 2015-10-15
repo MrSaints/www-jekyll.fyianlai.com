@@ -1,0 +1,25 @@
+{
+  "name": "www.fyianlai.com",
+  "version": "2.0.0",
+  "description": "A personal website powered by Jekyll.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSaints/www.fyianlai.com.git"
+  },
+  "author": "Ian Lai <os@fyianlai.com> (https://www.fyianlai.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrSaints/www.fyianlai.com/issues"
+  },
+  "homepage": "https://github.com/MrSaints/www.fyianlai.com#readme",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cssnano": "^2.0.0",
+    "gulp-sass": "^2.0.4"
+  }
+}

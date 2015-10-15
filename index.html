@@ -1,8 +1,4 @@
 ---
 is_home: true
+layout: blog
 ---
-
-{% for article in paginator.posts %}
-    {% capture cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% include article.html %}
-{% endfor %}

@@ -9,7 +9,6 @@
     {% elsif page.title %}
         {% capture current_title %}{{ page.title }} &#124; {% endcapture %}
     {% endif %}
-    <title>{{ current_title }}{{ site.title }}</title>
     {% if page.is_home %}
         {% assign current_description = site.description %}
         {% assign current_type = "website" %}
@@ -17,6 +16,7 @@
         {% assign current_description = page.description %}
         {% assign current_type = "article" %}
     {% endif %}
+    <title>{{ current_title }}{{ site.title }}</title>
     <meta name="description" content="{{ current_description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -32,28 +32,22 @@
     <link href="{{ site.url }}/feed" type="application/atom+xml" rel="alternate" title="Feed &#124; {{ site.title }}">
     <link href="/favicon.png" rel="shortcut icon">
 
-    <!--<link rel="stylesheet" href="http://basehold.it/30">-->
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400,700|Merriweather:400,400italic,700,700italic|Source+Code+Pro">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/normalize/3.0.3/normalize.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.4.0/css/font-awesome.min.css">
 
+    {% if page.has_code %}<link rel="stylesheet" href="/css/highlight.css">{% endif %}
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
 
-<!-- Header -->
 <header class="header block">
     <div class="wrapper">
-        <!--  'Branding' -->
-        <div class="logo"><a href="/">{{ site.title }}</a></div>
-        <!-- Navigation -->
-        <nav class="navbar" role="navigation">
-            <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/hello">Contact</a></li>
-            </ul>
+        <a href="/" class="brand">{{ site.title }}</a>
+
+        <nav class="nav" role="navigation">
+            <a href="/about" class="nav-item {% if page.title == "About" %}current{% endif %}">About</a>
+            <a href="/hello" class="nav-item {% if page.title == "Contact" %}current{% endif %}">Contact</a>
         </nav>
     </div>
 </header>

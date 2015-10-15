@@ -1,6 +1,7 @@
 ---
 date: 2014-11-04 09:24:00
 title: "Prepare() in Beego web app framework."
+has_code: true
 ---
 
 [`Prepare()`](http://beego.me/docs/mvc/controller/controller.md) is a method exposed by [`beego.Controller{}`](https://godoc.org/github.com/astaxie/beego#Controller) and it is executed prior to the method corresponding to your route and HTTP request (the action). It is not a filter and thus, it can easily be extended (much like the `Get()` and `Post()` method) for a variety of functions such as:

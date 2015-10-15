@@ -1,0 +1,50 @@
+.paginator {
+    border-top: 1px solid rgba(#000, 0.13);
+}
+
+.next, .prev {
+    background: none;
+    display: block;
+    float: left;
+    padding: $kl-i-2 $kl-i-1;
+    text-align: center;
+    width: 50%;
+
+    &:hover {
+        background: $secondary-colour;
+        color: #FFF;
+    }
+}
+
+.last {
+    border-right: 1px solid rgba(#000, 0.13);
+}
+
+.prev {
+    border-left: 1px solid rgba(#000, 0.13);
+    float: right;
+}
+
+.next-post, .prev-post {
+    &:before {
+        @include transition(all 0.3s cubic-bezier(0.4, 0, 0.2, 1));
+
+        color: $base-font-colour;
+        display: block;
+        font-size: rem(16);
+        font-family: $sans-serif;
+        line-height: $kl-i-1;
+    }
+
+    &:hover:before {
+        color: #FFF;
+    }
+}
+
+.next-post:before {
+    content: "← Next";
+}
+
+.prev-post:before {
+    content: "Previous →";
+}
