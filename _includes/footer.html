@@ -5,7 +5,7 @@
         <nav class="nav">
             <a href="/feed" class="nav-item" title="RSS Feed"><i class="fa fa-rss"></i></a>
             {% for link in site.social %}
-                <a href="{{ link.url }}" class="nav-item"><i class="fa fa-{{ link.slug }}" title="{{ link.slug | capitalize }}"></i></a>
+                <a href="{{ link[1] }}" class="nav-item"><i class="fa fa-{{ link[0] }}" title="{{ link[0] | capitalize }}"></i></a>
             {% endfor %}
         </nav>
     </div>
