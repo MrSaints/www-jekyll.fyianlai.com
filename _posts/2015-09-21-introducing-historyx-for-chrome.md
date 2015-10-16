@@ -1,6 +1,7 @@
 ---
 date: 2015-09-21 19:51
 title: "Introducing: HistoryX for Chrome"
+description: "A free, and open source Chrome extension to enhance your browsing history experience. Seamlessly search, sort, group, and filter your history. 100% ad, and tracker-free."
 thumbnail: "/img/historyx.png"
 ---
 
