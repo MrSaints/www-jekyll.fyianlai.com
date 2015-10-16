@@ -1,6 +1,6 @@
 ---
 date: 2012-01-03 02:01:00
-title: "Google Chrome: Minimum font-size issue"
+title: "Google Chrome: Minimum font-size Issue"
 disqus_id: "263 http://www.fyianlai.com/?p=263"
 tags: legacy
 has_code: true

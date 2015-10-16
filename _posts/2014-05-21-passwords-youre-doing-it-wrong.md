@@ -1,6 +1,6 @@
 ---
 date: 2014-05-21 05:47:00
-title: "Passwords. You're doing it wrong."
+title: "Passwords. You're Doing It Wrong"
 ---
 
 I seem to be having difficulties getting into the _mood_ to revise for an exam tomorrow. It is what I _should_ be doing, but what I really _want_ to be doing is to code all day. Unfortunately, as it is exam season I have decided to self-impose a ban on coding until I have completed all my exams. Fortunately, I do not recall banning myself from making a blog post so here we go.

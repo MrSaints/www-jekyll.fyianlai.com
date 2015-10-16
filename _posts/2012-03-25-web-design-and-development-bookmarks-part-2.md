@@ -1,6 +1,6 @@
 ---
 date: 2012-03-25 17:32:00
-title: "Web design and development bookmarks - part 2"
+title: "Web Design & Development Bookmarks - Part 2"
 tags: legacy
 ---
 

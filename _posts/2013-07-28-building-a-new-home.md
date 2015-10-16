@@ -1,6 +1,6 @@
 ---
 date: 2013-07-28 06:19:00
-title: "Building a new home."
+title: "Building a New Home"
 disqus_id: "329 http://www.fyianlai.com/?p=329"
 tags: legacy
 ---

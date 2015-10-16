@@ -1,6 +1,6 @@
 ---
 date: 2014-05-11 15:20:00
-title: "On long showers and deep thought."
+title: "On Long Showers & Deep Thoughts"
 redirect_from: "/2014/05/on-long-showers-and-deep-thought-x-post-from-my-tumblr/"
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: 2014-01-03 03:34:00
-title: "Moving forward."
+title: "Moving Forward"
 ---
 
 ## Out with the old and in with the new.

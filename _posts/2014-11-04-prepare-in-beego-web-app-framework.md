@@ -1,6 +1,6 @@
 ---
 date: 2014-11-04 09:24:00
-title: "Prepare() in Beego web app framework."
+title: "Prepare() in Beego Web Framework"
 has_code: true
 ---
 

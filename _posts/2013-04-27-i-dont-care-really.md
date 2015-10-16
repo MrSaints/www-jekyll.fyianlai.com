@@ -1,6 +1,6 @@
 ---
 date: 2013-04-27 10:56:00
-title: "I don't care, really."
+title: "I Don't Care, Really"
 disqus_id: "318 http://www.fyianlai.com/?p=318"
 tags: legacy
 ---
