@@ -2,7 +2,7 @@
     <div class="wrapper">
         <small class="share-heading">Spread the word</small>
         <div class="share-buttons">
-            <a href="https://www.facebook.com/dialog/feed?app_id=397195620473665&amp;caption={{ page.title | cgi_escape }}&amp;link={{ site.url }}{{ page.url }}&amp;redirect_uri={{ site.url }}{{ page.url }}" class="btn btn-share btn-facebook" target="_blank">
+            <a href="https://www.facebook.com/dialog/feed?app_id=397195620473665&amp;link={{ site.url }}{{ page.url }}&amp;redirect_uri={{ site.url }}{{ page.url }}{% if page.description %}&amp;description={{ page.description | uri_escape }}{% endif %}" class="btn btn-share btn-facebook" target="_blank">
                 <i class="fa fa-facebook" title="Facebook"></i> Facebook
             </a>
             <a href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape }}&amp;url={{ site.url }}{{ page.url }}&amp;via={{ site.twitter }}" class="btn btn-share btn-twitter" target="_blank">
