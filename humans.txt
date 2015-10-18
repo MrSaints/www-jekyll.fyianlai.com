@@ -1,0 +1,17 @@
+---
+layout: null
+---
+/* TEAM */
+    God: {{ site.title }}
+    Contact: os [at] fyianlai.com
+    Twitter: @{{ site.twitter }}
+    Location: Malaysia, and United Kingdom
+
+/* SITE */
+    Last update: {{ site.time | date: "%F" }}
+    Standards: HTML5, CSS3, SCSS
+    Components: HTML5 Boilerplate, Font Awesome, normalize.css, Bourbon, civil.css (http://civilapp.github.io/civil.css), animate.css
+    Fonts: Nunito, Lora, Source Code Pro (via Google Fonts)
+    Generators: Jekyll, gulp.js
+    IDE: Sublime Text 3
+    Others: NPM, Bower, Git
