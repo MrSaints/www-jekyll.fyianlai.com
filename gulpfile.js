@@ -1,6 +1,8 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
 var nano = require("gulp-cssnano");
+var uncss = require("gulp-uncss");
+var rename = require('gulp-rename');
 //var sourcemaps = require("gulp-sourcemaps");
 
 gulp.task("build", function () {
@@ -15,6 +17,18 @@ gulp.task("build", function () {
         }))
         .pipe(nano())
         //.pipe(sourcemaps.write("."))
+        .pipe(gulp.dest("./css"));
+});
+
+gulp.task("uncss", function () {
+    return gulp.src("./css/style.css")
+        .pipe(uncss({
+            html: ["_site/**/*.html"]
+        }))
+        .pipe(nano())
+        .pipe(rename({
+            suffix: ".un",
+        }))
         .pipe(gulp.dest("./css"));
 });
 
