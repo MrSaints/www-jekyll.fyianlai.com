@@ -1,10 +1,10 @@
 <footer class="footer block">
     <div class="wrapper">
         <div class="brand">
-            <a href="/" class="nav-title">Handcrafted with <span class="hearts">&#10084;</span> by Ian</a>
+            <a href="{{ site.repository }}" class="nav-title" title="Source">Handcrafted with <span class="hearts">&#10084;</span> by Ian</a>
         </div>
         <nav class="nav">
-            <a href="/feed" class="nav-item" title="RSS Feed"><i class="fa fa-rss"></i></a>
+            <a href="/feed" class="nav-item" title="Feed"><i class="fa fa-rss"></i></a>
             {% for link in site.social %}
                 <a href="{{ link[1] }}" class="nav-item"><i class="fa fa-{{ link[0] }}" title="{{ link[0] | capitalize }}"></i></a>
             {% endfor %}
