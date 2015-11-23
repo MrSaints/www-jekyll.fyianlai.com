@@ -35,7 +35,10 @@ paginate_path: "/page/:num/"
 permalink: /:year/:month/:title/
 
 gems:
+    - jekyll-paginate
     - jekyll-redirect-from
+    - jekyll-sitemap
+
 exclude:
     - CNAME
     - Gemfile
