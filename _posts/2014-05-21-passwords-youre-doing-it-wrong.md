@@ -142,3 +142,7 @@ Preventing errors from occurring is always the [best course of action](http://ww
 > By giving users control over their password input, you give them the peace of mind to complete your form.
 
 **Update (08/10/2015):** [Password Requirements Shaming](http://password-shaming.tumblr.com/) is yet another Tumblr dedicated towards _shaming_ websites with ridiculous password requirements / questionable management practices. Commentary is included for most of the offending sites.
+
+**Update (21/11/2015):** In [Patronizing Passwords](http://joelcalifa.com/blog/patronizing-passwords/), Joel writes:
+
+> We have to remember that at the end of the day, users are more than just a weak point of security in our systems. Our services exist for our users, not despite them. I like to think there are ways to get people to use strong passwords without forcing their hands and negatively affecting their experience using our products.
