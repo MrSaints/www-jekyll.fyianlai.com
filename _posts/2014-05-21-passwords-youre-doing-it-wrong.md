@@ -146,3 +146,7 @@ Preventing errors from occurring is always the [best course of action](http://ww
 **Update (21/11/2015):** In [Patronizing Passwords](http://joelcalifa.com/blog/patronizing-passwords/), Joel writes:
 
 > We have to remember that at the end of the day, users are more than just a weak point of security in our systems. Our services exist for our users, not despite them. I like to think there are ways to get people to use strong passwords without forcing their hands and negatively affecting their experience using our products.
+
+**Update (01/12/2015):** In [The Password Paradox](http://www.developertown.com/the-password-paradox/), the author mirrors the aforementioned arguments about password masking:
+
+> Clear text passwords do increase usability, but don’t force the change on existing users. Password masking is best offered as an option to maintain user trust in the site.
