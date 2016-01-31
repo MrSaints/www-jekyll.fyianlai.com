@@ -4,7 +4,7 @@ title: About
 
 Hello! My name is Ian, and welcome to my personal website.
 
-I'm an autodidact, full-stack web developer (minus mobile development) who is currently based in London. I'm also a recent graduate with a degree in BSc. International Relations.
+I'm an autodidact, full-stack web developer / software engineer who is currently based in London. I'm also a recent graduate with a degree in BSc. International Relations.
 
 As a self-proclaimed, full-stack web developer (or a web unicorn, to borrow from contemporary startup lingo), I have amassed approximately 10+ years worth of experience working in both backend, and frontend web development.
 
@@ -12,11 +12,11 @@ In spite of my core expertise in web development, I also have reasonable experie
 
 I have an immense love for planning, building, testing, shipping, and improving web applications of any scale. I have however, recently obtained a fondness in working with microservices, message queues, and abiding by (albeit, not strictly) the Unix philosophy to: _"write programs that do one thing and do it well"_.
 
-As of August 2015, my preferred programming language of choice is Golang. I have however, worked extensively with PHP, JavaScript (often in CoffeeScript), Ruby [on Rails], and most recently, Elixir as well as Clojure[Script] among many others. I'm currently exploring Elm, and Crystal.
+As of August 2015, my preferred programming language of choice is Golang. I have however, worked extensively with PHP, JavaScript (often in CoffeeScript), Python, Ruby, and most recently, Elixir as well as Clojure[Script] among many others. I'm currently exploring Elm, and Crystal.
 
 My passion for the web stems partly from my innate desire to discover, learn, and tinker ("hack"). Indeed, the attainment of once unfamiliar knowledge is extremely gratifying, and being able to solve existing / future challenges with newfound knowledge is empowering. As the saying goes: _"knowledge is power"_. Furthermore, the web is perhaps the most conducive for satisfying my desires due to the [generativity](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=847124) of its [web] technologies, and open source libraries.
 
-Outside the realm of web development, I have a multitude of interests. These interests includes international relations, politics, economics, applied psychology, astronomy, and machine learning.
+Outside the realm of web development, I have a multitude of interests. These interests includes international relations, politics, economics, applied psychology (particularly, user experience, and interaction design), cosmology, astronomy, and machine intelligence.
 
 In my spare time, I enjoy experimenting with new languages, libraries, and frameworks. Ocassionally, I document my adventures with these experiments, and blog about other musings. I also frequent Hacker News, Designer News, and Dribbble for daily news, and inspiration through the [Panda Chrome app](http://usepanda.com/).
 
