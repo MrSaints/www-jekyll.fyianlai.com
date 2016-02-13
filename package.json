@@ -4,6 +4,8 @@
   "description": "A personal website powered by Jekyll.",
   "main": "gulpfile.js",
   "scripts": {
+    "build": "jekyll build && gulp build && gulp uncss",
+    "dev": "jekyll serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
